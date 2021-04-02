@@ -1,20 +1,22 @@
-const int analogReadPin = 0;
+/*
+This code simulates the Analog-to-Digital conversion of a signal.
+*/
+const int analogReadPin = 0; 
 int sample;
 String b_sample;
-int start;
 
-String DtoB(int d_val);
+String DtoB(int d_val); //function to convert a given decimal value into 8-bit binary value.
 
 void setup(){
   Serial.begin(9600);
 }
 
 void loop(){
-  start = millis();
-  sample = map(analogRead(analogReadPin), 0, 1023, 0, 255);
+  sample = map(analogRead(analogReadPin), 0, 1023, 0, 255); //Taking a sample of the input through the in-built ADC and converting it to a quantization level between 0 and 255
   
-  b_sample = DtoB(sample);
+  b_sample = DtoB(sample); //Encoding the quantized level into an 8-bit binary value
 
+  //Demonstrating the encoded value with the original sample value
   Serial.print(sample);
   Serial.print(" => ");
   Serial.println(b_sample);
