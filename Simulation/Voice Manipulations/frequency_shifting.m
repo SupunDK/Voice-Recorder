@@ -1,9 +1,9 @@
-Fs = 10000;
+Fs = 1000;
 Ts = 1/Fs;
 t = 0:Ts:5-Ts;
 
-f1 = 50;
-f2 = 100;
+f1 = 200;
+f2 = 300;
 
 f0 = input("Enter a frequency between 0-1000 Hz: ");
 

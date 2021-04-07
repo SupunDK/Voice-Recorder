@@ -1,8 +1,10 @@
 function [] = show_freq(signal, l, Fs, title_txt)
     f = (-l/2:l/2-1)*(Fs/l);
-    f_vals = fftshift(fft(signal)/l);
+    f_vals = fft(signal)/l;
     
-    plot(f, abs(f_vals));
+    f_edit = [flip(f_vals(1:2500)) ,f_vals(1:2500)];
+    
+    plot(f, abs(f_edit));
     grid();
     xlabel("Frequency (Hz)");
     ylabel("Amplitude");
