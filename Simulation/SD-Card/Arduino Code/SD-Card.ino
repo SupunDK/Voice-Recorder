@@ -1,7 +1,7 @@
 #include <SPI.h>
 #include <SD.h>
 
-String SampleBitArray[4] ={"10101101","00011001","10110111","11100110"};
+char SampleBitArray[5] ={150,34,100,200,50};
 
 int RecButtonPin = 2;
 bool RecButton = false;
@@ -30,14 +30,14 @@ void loop() {
   if (RecButton)
   {
     String BitStream = "";
-    File dataFile = SD.open("Text.txt",FILE_WRITE);
+    File dataFile = SD.open("Wav.txt",FILE_WRITE);
     if (dataFile)
     {  
       while(RecButton)
       {
-        for (int i=0;i<4;i++)//This for loop should be change to bit stream
+        for (int i=0;i<5;i++)//This for loop should be change to bit stream
         {
-        dataFile.println(SampleBitArray[i]);
+        dataFile.print(SampleBitArray[i]);
         Serial.println(SampleBitArray[i]);
         
         }              
@@ -64,13 +64,14 @@ void changeStatus()
 
 void ReadSD()
 {
-  File RecFile = SD.open("Text.txt");
+  File RecFile = SD.open("Wav.txt");
   if (RecFile) {
-    Serial.println("Text.txt");
+    Serial.println("Wav.txt");
 
 
     while (RecFile.available()) {
-      Serial.write(RecFile.read());
+      int Val = int(RecFile.read());
+      Serial.println(Val);
     }
 
     RecFile.close();
