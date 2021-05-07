@@ -6,20 +6,13 @@ l = length(t);
 
 y = sin(2*pi*50*t);
 
-x = sin(2*pi*10*t) ./ (pi*t);
+x = sin(2*pi*10*t) ./ (pi*(t/Ts));
 
 figure;
-hold on;
+subplot(3, 1, 1);
+stem(t, y);
+xlim([-1, 1]);
+
+subplot(3, 1, 2);
 stem(t, x);
-
-z = conv(y, x);
-
-figure;
-subplot(3,1,1);
-show_freq_equaliser(y, l, Fs, "y");
-
-subplot(3,1,2);
-show_freq_equaliser(x, l, Fs, "x");
-
-%subplot(3,1,3);
-%show_freq(z(1:5001), l, Fs, "z");
+xlim([-1, 1]);
