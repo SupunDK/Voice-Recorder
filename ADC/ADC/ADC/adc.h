@@ -1,13 +1,13 @@
 int get_adc(void);
 void display_adc_val(int ADC_8_bit_out);
 
-ISR(TIMER1_OVF_vect){
+ISR(TIMER2_OVF_vect){
 	uint8_t ADC_8_bit_out = get_adc();
 	display_adc_val(ADC_8_bit_out);
 	
 	PORTD ^= 0b00001000;
 
-	TCNT1 = 65534;
+	TCNT2 = 0x05;
 }
 
 void start_adc(void){
@@ -17,9 +17,9 @@ void start_adc(void){
 
 	sei();
 
-	TCCR1B = 0X05; // Timer Frequency = 16 MHz / 1024 = 15.625 KHz
-	TCNT1 = 65534; 
-	TIMSK1 |= (1<<TOIE1); //Enable the timer overflow interrupt
+	TCCR2B = 0b00000010; // Timer Frequency = 16 MHz / 8 = 2 MHz
+	TCNT2 = 0x05; //set the Timer step = 5 (Overflow interrupt frequency = 8 Khz) 
+	TIMSK2 |= (1<<TOIE2); //Enable the timer overflow interrupt
 
 	DDRD = 0b00001000;
 
@@ -33,7 +33,7 @@ void stop_adc(void){
 	
 	cli();
 	
-	TIMSK1 = 0b00000000;
+	TIMSK2 = 0b00000000;
 	
 	PORTD = 0b00000000;
 	DDRD = 0b00000000;
