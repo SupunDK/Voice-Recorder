@@ -5,7 +5,7 @@ ISR(TIMER2_OVF_vect){
 	uint8_t ADC_8_bit_out = get_adc();
 	display_adc_val(ADC_8_bit_out);
 	
-	PORTD ^= 0b00001000;
+	PORTD ^= 0b00100000;
 
 	TCNT2 = 0x05;
 }
@@ -21,10 +21,9 @@ void start_adc(void){
 	TCNT2 = 0x05; //set the Timer step = 5 (Overflow interrupt frequency = 8 Khz) 
 	TIMSK2 |= (1<<TOIE2); //Enable the timer overflow interrupt
 
-	DDRD = 0b00001000;
+	DDRD = 0b00100000;
 
-	PORTD = 0b00001000;
-
+	PORTD = 0b00100000;
 }
 
 void stop_adc(void){

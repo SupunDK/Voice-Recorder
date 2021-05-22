@@ -1,6 +1,9 @@
+#include <pcmConfig.h>
+#include <pcmRF.h>
+#include <TMRpcm.h>
+
 #include <SPI.h>
 #include <SD.h>
-#include <TMRpcm.h>
 
 const int cs = 10;
 
@@ -23,20 +26,21 @@ void setup() {
 
   Serial.println("SD initialization successful!");
 
-  if(SD.exists("untitled.wav")){
+  if(SD.exists("voice2.wav")){
     Serial.println("The file exist");
   }
   else{
     Serial.println("The file doesn't exist");
+
+    return;
   }
 
   Serial.println("Start Playing");
 
   audio_file.setVolume(10);
-  audio_file.play("untitled.wav");
+  audio_file.play("voice2.wav");
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-
 }

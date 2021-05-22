@@ -3,7 +3,7 @@
 #define SD_ChipSelectPin 10 
 
 File sFile;
-char filename[] = "untitled.wav";
+char filename[] = "voice2.wav";
 
 const byte soundPin = 3; // OC2B
 int dataCount = 0;
