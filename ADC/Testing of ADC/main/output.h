@@ -1,11 +1,11 @@
 #ifndef __AVR_ATmega328__
-  #define __AVR_ATmega328__
+#define __AVR_ATmega328__
 #endif
 
 uint8_t sample = 0;
 uint8_t mode = 0;
 volatile uint8_t initial;
-volatile uint8_t int count = 0;
+volatile uint8_t count = 0;
 volatile uint8_t data;
 
 ISR(TIMER1_OVF_vect)
@@ -14,28 +14,29 @@ ISR(TIMER1_OVF_vect)
 
   count += 1;
 
-  if(count == 1){
+  if (count == 1) {
     if (file.available()) {
       OCR1AH = 0x00;
 
       data = (int)file.read();
 
-      OCR1AL = initial +  data/ 255.0 * (255 - initial);
+      OCR1AL = initial +  data / 255.0 * (255 - initial);
     }
     else {
       file.close();
       TIMSK1 = 0b00000000;
+      DDRB ^= (1 << PORTB1);
       PORTD  = 0b00000000;
       DDRD   = 0b00000000;
 
       count = 0;
     }
   }
-  else{
+  else {
     OCR1AH = 0x00;
     OCR1AL = initial + data / 255.0 * (255 - initial);
 
-    if(count == 8){
+    if (count == 8) {
       count = 0;
     }
   }

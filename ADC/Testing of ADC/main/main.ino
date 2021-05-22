@@ -1,5 +1,5 @@
 #ifndef __AVR_ATmega328P__
-  #define __AVR_ATmega328P__
+#define __AVR_ATmega328P__
 #endif
 
 #include <avr/io.h>
@@ -33,5 +33,47 @@ void setup() {
 }
 
 void loop() {
+  if (record) {
+    cli();
 
+    start_adc();
+
+    if (SD.exists("test3.txt")) {
+      SD.remove("test3.txt");
+    }
+
+    file = SD.open("test3.txt", FILE_WRITE);
+
+    sei();
+
+    while (record);
+
+    cli();
+
+    stop_adc();
+    file.close();
+
+    sei();
+  }
+
+  if (playing) {
+    cli();
+
+    file = SD.open("TEST3.txt");
+    pwm_generate(0);
+
+    sei();
+
+    while (playing);
+
+    cli();
+
+    file.close();
+    TIMSK1 = 0b00000000;
+    DDRB ^= (1 << PORTB1);
+    PORTD = 0b00000000;
+    DDRD = 0b00000000;
+
+    sei();
+  }
 }

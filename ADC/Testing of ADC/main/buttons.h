@@ -1,34 +1,12 @@
+volatile bool record = false;
+volatile bool playing = false;
+
 ISR(INT0_vect) {
-  if (!(ADCSRA & (1 << ADEN))) {
-    //setup_usat_com();
-    start_adc();
-
-    if (SD.exists("test3.txt")) {
-      SD.remove("test3.txt");
-    }
-
-    file = SD.open("test3.txt", FILE_WRITE);
-  }
-  else {
-    stop_adc();
-    //  stop_usat_com();
-
-    file.close();
-  }
+  record = !record;
 }
 
 ISR(INT1_vect) {
-  if (TIMSK1 == 0x01) {
-    file.close();
-    TIMSK1 = 0b00000000;
-
-    PORTD = 0b00000000;
-    DDRD = 0b00000000;
-  }
-  else {
-    file = SD.open("TEST3.txt");
-    pwm_generate(0);
-  }
+  playing = !playing;
 }
 
 void setup_recording_btn(void) {
