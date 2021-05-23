@@ -1,17 +1,21 @@
 volatile byte ADC_8_bit_out;
+volatile bool ADC_flag = false;
 
 int get_adc(void);
 void display_adc_val(int ADC_8_bit_out);
 
 ISR(TIMER2_OVF_vect) {
+  ADC_flag = true;
+  TCNT2 = 0x05;
+}
+
+void record_ADC() {
   ADC_8_bit_out = get_adc();
   //display_adc_val(ADC_8_bit_out);
 
   file.write(ADC_8_bit_out);
 
   PORTD ^= 0b00100000;
-
-  TCNT2 = 0x05;
 }
 
 void start_adc(void) {
