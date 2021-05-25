@@ -23,8 +23,6 @@ Discarded input sections
  .bss.fno       0x00000000       0x16 main.o
  .bss.dir       0x00000000        0xc main.o
  .data.PlayBtn  0x00000000        0x1 main.o
- .bss.RecButton
-                0x00000000        0x1 main.o
  .data.RecBtn   0x00000000        0x1 main.o
  .text          0x00000000        0x0 mmc.o
  .data          0x00000000        0x0 mmc.o
@@ -435,7 +433,7 @@ END GROUP
  *(.fini0)
                 0x00000d6c                _etext = .
 
-.data           0x00800100       0x14 load address 0x00000d6c
+.data           0x00800100       0x12 load address 0x00000d6c
                 0x00800100                PROVIDE (__data_start, .)
  *(.data)
  *(.data*)
@@ -447,33 +445,30 @@ END GROUP
  *(.rodata)
  *(.rodata*)
  .rodata.str1.1
-                0x00800102       0x12 main.o
-                                 0x14 (size before relaxing)
+                0x00800102       0x10 main.o
  *(.gnu.linkonce.r*)
-                0x00800114                . = ALIGN (0x2)
-                0x00800114                _edata = .
-                0x00800114                PROVIDE (__data_end, .)
+                0x00800112                . = ALIGN (0x2)
+                0x00800112                _edata = .
+                0x00800112                PROVIDE (__data_end, .)
 
-.bss            0x00800114       0x28
-                0x00800114                PROVIDE (__bss_start, .)
+.bss            0x00800112       0x27
+                0x00800112                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
- .bss.fs        0x00800114       0x24 main.o
-                0x00800114                fs
- .bss.res       0x00800138        0x1 main.o
-                0x00800138                res
- .bss.CardType  0x00800139        0x1 mmc.o
- .bss.FatFs     0x0080013a        0x2 pff.o
+ .bss.fs        0x00800112       0x24 main.o
+                0x00800112                fs
+ .bss.CardType  0x00800136        0x1 mmc.o
+ .bss.FatFs     0x00800137        0x2 pff.o
  *(COMMON)
-                0x0080013c                PROVIDE (__bss_end, .)
+                0x00800139                PROVIDE (__bss_end, .)
                 0x00000d6c                __data_load_start = LOADADDR (.data)
-                0x00000d80                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x00000d7e                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x0080013c        0x0
+.noinit         0x00800139        0x0
                 [!provide]                PROVIDE (__noinit_start, .)
  *(.noinit*)
                 [!provide]                PROVIDE (__noinit_end, .)
-                0x0080013c                _end = .
+                0x00800139                _end = .
                 [!provide]                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
@@ -552,12 +547,12 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0x1ef7
+.debug_info     0x00000000     0x1ecc
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x5f4 D:/Elec UNI/Atmel Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o
- .debug_info    0x000005f4      0x5c8 main.o
- .debug_info    0x00000bbc      0x579 mmc.o
- .debug_info    0x00001135      0xdc2 pff.o
+ .debug_info    0x000005f4      0x59d main.o
+ .debug_info    0x00000b91      0x579 mmc.o
+ .debug_info    0x0000110a      0xdc2 pff.o
 
 .debug_abbrev   0x00000000      0xb82
  *(.debug_abbrev)
@@ -579,15 +574,15 @@ END GROUP
  .debug_frame   0x0000009c       0xec mmc.o
  .debug_frame   0x00000188      0x2b0 pff.o
 
-.debug_str      0x00000000      0x75d
+.debug_str      0x00000000      0x76a
  *(.debug_str)
  .debug_str     0x00000000      0x208 D:/Elec UNI/Atmel Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o
- .debug_str     0x00000208      0x364 main.o
-                                0x3c8 (size before relaxing)
- .debug_str     0x0000056c      0x138 mmc.o
-                                0x260 (size before relaxing)
- .debug_str     0x000006a4       0xb9 pff.o
-                                0x384 (size before relaxing)
+ .debug_str     0x00000208      0x371 main.o
+                                0x3d5 (size before relaxing)
+ .debug_str     0x00000579      0x138 mmc.o
+                                0x27c (size before relaxing)
+ .debug_str     0x000006b1       0xb9 pff.o
+                                0x3a0 (size before relaxing)
 
 .debug_loc      0x00000000     0x182b
  *(.debug_loc)

@@ -40,6 +40,7 @@
         </dependencies>
       </framework-data>
     </AsfFrameworkConfig>
+    <Compiler>gcc</Compiler>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <ToolchainSettings>
@@ -170,10 +171,13 @@
     <Compile Include="diskio.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="main.cpp">
+    <Compile Include="diskio_avr.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="mmc.c">
+    <Compile Include="integer.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="main.c">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="pff.c">
@@ -183,9 +187,6 @@
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="pffconf.h">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="spi.h">
       <SubType>compile</SubType>
     </Compile>
   </ItemGroup>

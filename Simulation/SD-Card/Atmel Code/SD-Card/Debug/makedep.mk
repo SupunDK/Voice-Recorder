@@ -2,9 +2,9 @@
 # Automatically-generated file. Do not edit or delete the file
 ################################################################################
 
-main.cpp
+diskio_avr.c
 
-mmc.c
+main.c
 
 pff.c
 
