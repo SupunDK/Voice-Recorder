@@ -33,8 +33,11 @@ void pwm_generate(uint8_t mode) {
 
 void sendData(){
   data = (uint16_t)file.read();
+  //Serial.println(data);
 
-  data = (3900 * data / 255) + 100;
+  data = 15*data + 100;
+
+  //Serial.println(data);
 
   dac.setVoltage2(data);
 }

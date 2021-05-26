@@ -29,6 +29,7 @@ void setup() {
     return;
   }
   dac.begin(0x60);
+  dac.sleep();
 
   setup_recording_btn();
   setup_play_btn();

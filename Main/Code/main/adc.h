@@ -11,7 +11,9 @@ ISR(TIMER2_OVF_vect) {
 
 void record_ADC() {
   ADC_8_bit_out = get_adc();
+
   //display_adc_val(ADC_8_bit_out);
+  //Serial.println(ADC_8_bit_out);
 
   file.write(ADC_8_bit_out);
 
@@ -32,7 +34,6 @@ void start_adc(void) {
   DDRD = 0b00100000;
 
   PORTD = 0b00100000;
-
 }
 
 void stop_adc(void) {
@@ -49,20 +50,19 @@ void stop_adc(void) {
   sei();
 }
 
-int get_adc(void)
-{
-  uint8_t ADC_8_bit_out;
+int get_adc(void){
+  uint16_t ADC_8_bit_out;
 
   ADCSRA |= 1 << ADSC; //starting conversion
 
   while (ADCSRA & (1 << ADSC)); //waiting until the conversion is complete
 
   ADC_8_bit_out = ADCL; //reading the 8 bits in the ADCL register
-  ADCH;
+  ADC_8_bit_out += (ADCH << 8);
 
   ADCSRA |= 1 << ADIF; //clearing the ADIF
 
-  return ADC_8_bit_out;
+  return ADC_8_bit_out * 0.25;
 }
 
 void setup_usat_com(void) {
