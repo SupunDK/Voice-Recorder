@@ -1,0 +1,6 @@
+{
+    "board": "arduino:avr:uno",
+    "sketch": "main.ino",
+    "output": "../build",
+    "buildPreferences": [["build.extra_flags", "-D__AVR_ATmega328P__"]]
+}
