@@ -4,6 +4,7 @@ void display_adc_val(int ADC_8_bit_out);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ISR(TIMER2_OVF_vect){
 	uint8_t ADC_8_bit_out = get_adc();
 	display_adc_val(ADC_8_bit_out);
@@ -12,6 +13,8 @@ ISR(TIMER2_OVF_vect){
 
 	TCNT2 = 0x05;
 =======
+=======
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
@@ -25,6 +28,9 @@ ISR(TIMER1_OVF_vect){
 	TCNT1 = 65534;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
+=======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
@@ -42,6 +48,7 @@ void start_adc(void){
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	TCCR2B = 0b00000010; // Timer Frequency = 16 MHz / 8 = 2 MHz
 	TCNT2 = 0x05; //set the Timer step = 5 (Overflow interrupt frequency = 8 Khz) 
 	TIMSK2 |= (1<<TOIE2); //Enable the timer overflow interrupt
@@ -50,6 +57,8 @@ void start_adc(void){
 
 	PORTD = 0b00100000;
 =======
+=======
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
@@ -64,6 +73,9 @@ void start_adc(void){
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
+=======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
@@ -80,7 +92,11 @@ void stop_adc(void){
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	TIMSK2 = 0b00000000;
+=======
+	TIMSK1 = 0b00000000;
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
 	TIMSK1 = 0b00000000;
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6

@@ -6,6 +6,7 @@ Idx Name          Size      VMA       LMA       File off  Algn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   0 .data         00000000  00800100  00800100  0000030e  2**0
                   CONTENTS, ALLOC, LOAD, DATA
   1 .text         000002ba  00000000  00000000  00000054  2**1
@@ -30,6 +31,8 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
  11 .debug_ranges 00000058  00000000  00000000  00001f20  2**0
 =======
+=======
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
@@ -59,6 +62,9 @@ Idx Name          Size      VMA       LMA       File off  Algn
  11 .debug_ranges 00000058  00000000  00000000  00001f2d  2**0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
+=======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
@@ -73,7 +79,11 @@ Disassembly of section .text:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    4:	0c 94 f6 00 	jmp	0x1ec	; 0x1ec <__vector_1>
+=======
+   4:	0c 94 fc 00 	jmp	0x1f8	; 0x1f8 <__vector_1>
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
    4:	0c 94 fc 00 	jmp	0x1f8	; 0x1f8 <__vector_1>
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
@@ -93,12 +103,15 @@ Disassembly of section .text:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   24:	0c 94 c8 00 	jmp	0x190	; 0x190 <__vector_9>
   28:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
   2c:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
   30:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
   34:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
 =======
+=======
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
@@ -110,6 +123,9 @@ Disassembly of section .text:
   34:	0c 94 cb 00 	jmp	0x196	; 0x196 <__vector_13>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
+=======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
@@ -138,8 +154,13 @@ Disassembly of section .text:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   74:	0e 94 30 01 	call	0x260	; 0x260 <main>
   78:	0c 94 5b 01 	jmp	0x2b6	; 0x2b6 <_exit>
+=======
+  74:	0e 94 36 01 	call	0x26c	; 0x26c <main>
+  78:	0c 94 61 01 	jmp	0x2c2	; 0x2c2 <_exit>
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
   74:	0e 94 36 01 	call	0x26c	; 0x26c <main>
   78:	0c 94 61 01 	jmp	0x2c2	; 0x2c2 <_exit>
@@ -161,7 +182,11 @@ Disassembly of section .text:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	TCNT2 = 0x05;
+=======
+	TCNT1 = 65534;
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
 	TCNT1 = 65534;
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
@@ -187,6 +212,7 @@ void start_adc(void){
 	sei();
   92:	78 94       	sei
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -217,6 +243,8 @@ void start_adc(void){
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
+=======
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 	TCCR1B = 0X05; // Timer Frequency = 16 MHz / 1024 = 15.625 KHz
   94:	85 e0       	ldi	r24, 0x05	; 5
   96:	80 93 81 00 	sts	0x0081, r24	; 0x800081 <__TEXT_REGION_LENGTH__+0x7f8081>
@@ -243,6 +271,9 @@ void start_adc(void){
 000000b8 <_Z8stop_adcv>:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
+=======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
@@ -253,6 +284,7 @@ void start_adc(void){
 
 void stop_adc(void){
 	DIDR0 = 0b00000000;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -281,6 +313,8 @@ void stop_adc(void){
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
+=======
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
   b8:	10 92 7e 00 	sts	0x007E, r1	; 0x80007e <__TEXT_REGION_LENGTH__+0x7f807e>
 	ADCSRA = 0b00000000;
   bc:	10 92 7a 00 	sts	0x007A, r1	; 0x80007a <__TEXT_REGION_LENGTH__+0x7f807a>
@@ -303,6 +337,9 @@ void stop_adc(void){
 000000ce <_Z7get_adcv>:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
+=======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
@@ -314,6 +351,7 @@ int get_adc(void)
 	uint8_t ADC_8_bit_out;
 
 	ADCSRA |= 1<<ADSC; //starting conversion
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -368,6 +406,8 @@ void setup_usat_com(void){
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
+=======
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
   ce:	ea e7       	ldi	r30, 0x7A	; 122
   d0:	f0 e0       	ldi	r31, 0x00	; 0
   d2:	80 81       	ld	r24, Z
@@ -416,6 +456,9 @@ void setup_usat_com(void){
 0000010e <_Z13stop_usat_comv>:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
+=======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
@@ -425,6 +468,7 @@ void setup_usat_com(void){
 
 void stop_usat_com(void){
 	UBRR0L = 0x00;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -447,6 +491,8 @@ void display_adc_val(int ADC_8_bit_out){
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
+=======
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
  10e:	10 92 c4 00 	sts	0x00C4, r1	; 0x8000c4 <__TEXT_REGION_LENGTH__+0x7f80c4>
 	UCSR0C = 0x00;
  112:	10 92 c2 00 	sts	0x00C2, r1	; 0x8000c2 <__TEXT_REGION_LENGTH__+0x7f80c2>
@@ -463,6 +509,9 @@ void display_adc_val(int ADC_8_bit_out){
  120:	ec 01       	movw	r28, r24
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
+=======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
@@ -473,6 +522,7 @@ void display_adc_val(int ADC_8_bit_out){
 	uint8_t one_pos;
 
 	one_pos = ADC_8_bit_out % 10;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -683,6 +733,8 @@ void setup_recording_btn(void){
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
+=======
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
  122:	ea e0       	ldi	r30, 0x0A	; 10
  124:	f0 e0       	ldi	r31, 0x00	; 0
  126:	bf 01       	movw	r22, r30
@@ -889,6 +941,9 @@ void setup_recording_btn(void){
 0000026c <main>:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
+=======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
@@ -900,6 +955,7 @@ void setup_recording_btn(void){
 int main(void)
 {
 	setup_recording_btn();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -969,6 +1025,8 @@ int main(void)
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
+=======
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
  26c:	0e 94 2b 01 	call	0x256	; 0x256 <_Z19setup_recording_btnv>
  270:	ff cf       	rjmp	.-2      	; 0x270 <main+0x4>
 
@@ -1032,6 +1090,9 @@ int main(void)
  2c4:	ff cf       	rjmp	.-2      	; 0x2c4 <__stop_program>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
+=======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6

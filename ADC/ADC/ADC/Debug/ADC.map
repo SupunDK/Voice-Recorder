@@ -190,7 +190,11 @@ END GROUP
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .text           0x00000000      0x2ba
+=======
+.text           0x00000000      0x2c6
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
 .text           0x00000000      0x2c6
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
@@ -266,7 +270,10 @@ END GROUP
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 0x0000007c                __vector_13
+=======
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
@@ -281,6 +288,10 @@ END GROUP
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                0x0000007c                __vector_9
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
                 0x0000007c                __vector_9
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
@@ -302,6 +313,7 @@ END GROUP
                 0x00000080                . = ALIGN (0x2)
  *(.text.*)
  .text._Z9start_adcv
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -350,6 +362,8 @@ END GROUP
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
+=======
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
                 0x00000080       0x38 main.o
                 0x00000080                _Z9start_adcv
  .text._Z8stop_adcv
@@ -392,6 +406,9 @@ END GROUP
                 0x000002c2                exit
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
+=======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
@@ -418,12 +435,15 @@ END GROUP
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  .fini0         0x000002b6        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
  *(.fini0)
                 0x000002ba                _etext = .
 
 .data           0x00800100        0x0 load address 0x000002ba
 =======
+=======
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
@@ -435,6 +455,9 @@ END GROUP
 .data           0x00800100        0x0 load address 0x000002c6
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
+=======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
@@ -460,8 +483,13 @@ END GROUP
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 0x000002ba                __data_load_start = LOADADDR (.data)
                 0x000002ba                __data_load_end = (__data_load_start + SIZEOF (.data))
+=======
+                0x000002c6                __data_load_start = LOADADDR (.data)
+                0x000002c6                __data_load_end = (__data_load_start + SIZEOF (.data))
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
                 0x000002c6                __data_load_start = LOADADDR (.data)
                 0x000002c6                __data_load_end = (__data_load_start + SIZEOF (.data))
@@ -574,12 +602,15 @@ END GROUP
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .debug_str      0x00000000      0x4dc
  *(.debug_str)
  .debug_str     0x00000000      0x208 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o
  .debug_str     0x00000208      0x2d4 main.o
                                 0x308 (size before relaxing)
 =======
+=======
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
@@ -591,6 +622,9 @@ END GROUP
                                 0x309 (size before relaxing)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
+=======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
 =======
 >>>>>>> 475e5fff8f582ad36f87f7024429a81d02e039a6
