@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "adafruit_mcp4725.h": "c",
+        "adafruit_busio_register.h": "c",
+        "wire.h": "c",
+        "stream.h": "c"
+    }
+}

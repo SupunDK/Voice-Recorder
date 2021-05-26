@@ -1,0 +1,5 @@
+{
+    "board": "arduino:avr:uno",
+    "sketch": "playing_sound.ino",
+    "port": "COM3"
+}
