@@ -88,16 +88,17 @@ bool Adafruit_MCP4725::setVoltage(uint16_t output, bool writeEEPROM,
   return true;
 }
 
-bool Adafruit_MCP4725::myVoltage(uint8_t sample) {
+bool Adafruit_MCP4725::setVoltage2(uint8_t sample) {
 
+  uint16_t value;
   if (sample > 255){
-    uint16_t value = 4000;
+    value = 4000;
   }
   else if (sample < 0){
-    uint16_t value = 100;
+    value = 100;
   }
   else{
-    uint16_t value = 100 + ((sample/255.0) * 3900);
+    value = 100 + ((sample/255.0) * 3900);
   }
   
   uint8_t packet[2];
@@ -111,3 +112,9 @@ bool Adafruit_MCP4725::myVoltage(uint8_t sample) {
   return true;
   // returns True if write was successful, otherwise false
 }
+
+void Adafruit_MCP4725::config_speed(long freq) {
+  // Function to define I2C Bit rate
+  TWBR = ((F_CPU / freq) - 16) / 2;
+}
+

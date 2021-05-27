@@ -29,7 +29,9 @@ public:
              TwoWire *wire = &Wire);
   bool setVoltage(uint16_t output, bool writeEEPROM,
                   uint32_t dac_frequency = 400000);
-  bool myVoltage(uint8_t sample);
+                
+  bool setVoltage2(uint8_t sample);
+  void config_speed(long freq);
 private:
   Adafruit_I2CDevice *i2c_dev = NULL;
 };
