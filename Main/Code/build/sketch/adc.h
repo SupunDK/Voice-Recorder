@@ -34,7 +34,6 @@ void start_adc(void) {
   DDRD = 0b00100000;
 
   PORTD = 0b00100000;
-
 }
 
 void stop_adc(void) {
@@ -51,8 +50,7 @@ void stop_adc(void) {
   sei();
 }
 
-int get_adc(void)
-{
+int get_adc(void){
   uint16_t ADC_8_bit_out;
 
   ADCSRA |= 1 << ADSC; //starting conversion
