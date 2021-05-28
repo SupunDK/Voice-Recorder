@@ -21,7 +21,7 @@ void pwm_generate(uint8_t mode) {
 
   // Reset Timer1 register and set compare value in OCR1A
   TCNT1 = 0;
-  OCR1A = 125;
+  OCR1A = 250;
     
   DDRD  = 0b00100000;             // test_LED - by blinking
   PORTD = 0b00100000;

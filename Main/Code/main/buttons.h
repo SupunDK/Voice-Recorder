@@ -17,7 +17,6 @@ void setup_recording_btn(void) {
 
   sei();
 
-
   DDRD = 0b00100000;
   PORTD = 0b00000000;
 }
