@@ -88,23 +88,21 @@ bool Adafruit_MCP4725::setVoltage(uint16_t output, bool writeEEPROM,
   return true;
 }
 
-bool Adafruit_MCP4725::setVoltage2(uint8_t sample) {
-
-  uint16_t value;
+bool Adafruit_MCP4725::setVoltage2(uint16_t sample) {
   if (sample > 255){
-    value = 4000;
+    sample = 4000;
   }
   else if (sample < 0){
-    value = 100;
+    sample = 100;
   }
   else{
-    value = 100 + ((sample/255.0) * 3900);
+    sample = 100 + ((sample/255.0) * 3900);
   }
   
   uint8_t packet[2];
   
-  packet[0] = value >> 8;        // Upper data bits (0.0.0.0.D11.D10.D9.D8)
-  packet[1] = value & 255;       // Lower data bits (D7.D6.D5.D4.D3.D2.D1.D0)
+  packet[0] = sample >> 8;        // Upper data bits (0.0.0.0.D11.D10.D9.D8)
+  packet[1] = sample & 255;       // Lower data bits (D7.D6.D5.D4.D3.D2.D1.D0)
 
   if (!i2c_dev->write(packet, 2)) { 
     return false;

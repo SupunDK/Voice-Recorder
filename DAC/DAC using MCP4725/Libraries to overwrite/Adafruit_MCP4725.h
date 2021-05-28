@@ -30,7 +30,7 @@ public:
   bool setVoltage(uint16_t output, bool writeEEPROM,
                   uint32_t dac_frequency = 400000);
                 
-  bool setVoltage2(uint8_t sample);
+  bool setVoltage2(uint16_t sample);
   void configureSpeed(long freq);
   bool sleep();
 private:
