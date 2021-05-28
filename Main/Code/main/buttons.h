@@ -66,7 +66,7 @@ void start_playing() {
   cli();
 
   file = SD.open("TEST3.txt");
-  pwm_generate(0);
+  start_playback(0);
 
   sei();
 
