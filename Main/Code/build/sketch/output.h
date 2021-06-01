@@ -40,7 +40,7 @@ ISR(TIMER1_OVF_vect)
   PORTD ^= 0b00100000;
 }
 
-void pwm_generate(uint8_t mode) {
+void start_playback(uint8_t mode) {
   DDRB |= (1 << PORTB1);             // set PB1 as output
 
   TCCR1A = 0b10000001;              // set Fast PWM(8-bit) mode, and non-inverting

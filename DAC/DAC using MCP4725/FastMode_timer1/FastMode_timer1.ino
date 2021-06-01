@@ -11,12 +11,11 @@ uint8_t stepVal = 25;         // Step for creating triangle wave
 volatile bool flag = false;   // Flag for ISR
 
 void init_dac(uint8_t);
-void config_speed(long);
 
 void setup() {
 
   dac.begin(0x60);            // Send the address byte to MCP4725
-  config_speed(400000);       // Change the i2c clock to 400KHz - fast mode (l stands for long)
+  dac.configureSpeed(400000);   // Change the i2c clock to 400KHz - fast mode (l stands for long)
   init_dac(mode);             // Initialize interrupts
 
   //Serial.begin(9600);
@@ -30,21 +29,16 @@ void loop() {
   if (flag) {
     sample += stepVal;
 
-    if (sample == 250) {
-      stepVal = -25;
+    if (sample == 255) {
+      stepVal = -5;
     }
     if (sample == 0) {
-      stepVal = 25;
+      stepVal = 5;
     }
     //Serial.println(sample); //debugging
-    dac.myVoltage(sample);
+    dac.setVoltage2(sample);
     flag = false;
   }
-}
-
-// Function to define I2C Bit rate
-void config_speed(long freq) {
-  TWBR = ((F_CPU / freq) - 16) / 2;
 }
 
 // Initializing interrupts for DAC
@@ -84,7 +78,7 @@ ISR(TIMER1_COMPA_vect) {
 /*
   // Implementation of setVotage for Fast Mode
   
-  bool Adafruit_MCP4725::myVoltage(uint8_t sample) {
+  bool Adafruit_MCP4725::setVoltage2(uint8_t sample) {
 
   uint16_t value = 100 + ((sample/255.0) * 3900);  //use the range with lower deformation
   uint8_t packet[2];
@@ -98,4 +92,14 @@ ISR(TIMER1_COMPA_vect) {
   return true;
   // returns True if write was successful, otherwise false
 }
+ 
+ // Function to define I2C Bit rate
+ void Adafruit_MCP4725::config_speed(long freq) {
+   TWBR = ((F_CPU / freq) - 16) / 2;
+}
+ 
+ 
+ 
  */
+
+ 

@@ -17,7 +17,6 @@ void setup_recording_btn(void) {
 
   sei();
 
-
   DDRD = 0b00100000;
   PORTD = 0b00000000;
 }
@@ -67,7 +66,7 @@ void start_playing() {
   cli();
 
   file = SD.open("TEST3.txt");
-  pwm_generate(0);
+  start_playback(0);
 
   sei();
 

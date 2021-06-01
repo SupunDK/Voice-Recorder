@@ -9,7 +9,7 @@ ISR(TIMER1_COMPA_vect) {
   DAC_flag = true; 
 }
 
-void pwm_generate(uint8_t mode) {
+void start_playback(uint8_t mode) {
   //Serial.println("In the pwm generate function");
   dac.configureSpeed(400000);
 
@@ -21,7 +21,7 @@ void pwm_generate(uint8_t mode) {
 
   // Reset Timer1 register and set compare value in OCR1A
   TCNT1 = 0;
-  OCR1A = 125;
+  OCR1A = 250;
     
   DDRD  = 0b00100000;             // test_LED - by blinking
   PORTD = 0b00100000;
@@ -33,11 +33,6 @@ void pwm_generate(uint8_t mode) {
 
 void sendData(){
   data = (uint16_t)file.read();
-  //Serial.println(data);
-
-  data = 15*data + 100;
-
-  //Serial.println(data);
 
   dac.setVoltage2(data);
 }
