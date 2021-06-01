@@ -9,9 +9,8 @@ uint8_t RECBtn = 6;
 uint8_t STOPBtn = 2;
 
 
-
 const byte Speaker = 3; // OC2B
-int dataCount = 0;
+uint32_t dataCount = 0;
 unsigned int numBytes;
 
 File PlayFile;

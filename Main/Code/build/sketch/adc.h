@@ -6,7 +6,7 @@ void display_adc_val(int ADC_8_bit_out);
 
 ISR(TIMER2_OVF_vect) {
   ADC_flag = true;
-  TCNT2 = 0x05;
+  TCNT2 = 0x82; //change this
 }
 
 void record_ADC() {
@@ -28,7 +28,7 @@ void start_adc(void) {
   sei();
 
   TCCR2B = 0b00000010; // Timer Frequency = 16 MHz / 8 = 2 MHz
-  TCNT2 = 0x05; //set the Timer step = 5 (Overflow interrupt frequency = 8 Khz)
+  TCNT2 = 0x82; //set the Timer step = 5 (Overflow interrupt frequency = 8 Khz)
   TIMSK2 |= (1 << TOIE2); //Enable the timer overflow interrupt
 
   DDRD = 0b00100000;
