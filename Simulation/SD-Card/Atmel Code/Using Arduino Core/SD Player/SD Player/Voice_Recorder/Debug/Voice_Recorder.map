@@ -1,0 +1,2126 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                              Sketch.o (Serial)
+C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(main.o)
+                              D:/Elec UNI/Atmel Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o (main)
+C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                              Sketch.o (_ZN5Print5printEPKc)
+C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(main.o) (init)
+C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                              Sketch.o (digitalRead)
+C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                              Sketch.o (_ZN6StringD1Ev)
+C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+                              Sketch.o (_ZN5SDLib4File5writeEh)
+C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+                              Sketch.o (_ZN5SDLib7SDClass5beginEh)
+C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o) (_ZN7Sd2Card11setSpiClockEm)
+C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o) (_ZN6SdFile7dirNameERK14directoryEntryPc)
+C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdVolume.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o) (_ZN8SdVolume10cacheFlushEv)
+C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o) (_ZN8SPIClass5beginEv)
+C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__cxa_pure_virtual)
+C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o) (_ZN14HardwareSerial9availableEv)
+C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring.o) (yield)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__subsf3)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                              d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o) (__addsf3x)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__ltsf2)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__divsf3)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                              d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o) (__divsf3x)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__fixunssfsi)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__floatunsisf)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+                              d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o) (__fp_cmp)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                              d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_inf)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                              d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_nan)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                              d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_pscA)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                              d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_pscB)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                              d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o) (__fp_round)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                              d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_split3)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                              d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_zero)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__gtsf2)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__mulsf3)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                              d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o) (__mulsf3x)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__unordsf2)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodqi4.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o) (__udivmodqi4)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__udivmodsi4)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
+                              UART.o (__divmodsi4)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
+                              d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o) (__negsi2)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                              D:/Elec UNI/Atmel Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o (exit)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+                              Sketch.o (__do_copy_data)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+                              Sketch.o (__do_clear_bss)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+                              Sketch.o (__do_global_ctors)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdVolume.o) (__muluhisi3)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+                              d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o) (__tablejump2__)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+                              d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o) (__umulhisi3)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtostrf.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o) (dtostrf)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o) (malloc)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(realloc.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o) (realloc)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(abort.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(abi.o) (abort)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(atof.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o) (atof)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(atol.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o) (atol)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(isspace.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o) (isspace)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(tolower.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o) (tolower)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(toupper.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o) (toupper)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcpy_P.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o) (strcpy_P)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strlen_P.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o) (__strlen_P)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcmp.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o) (memcmp)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o) (memcpy)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memmove.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o) (memmove)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strchr.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o) (strchr)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcmp.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o) (strcmp)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcpy.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o) (strcpy)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strncmp.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o) (strncmp)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strncpy.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o) (strncpy)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strrchr.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o) (strrchr)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strstr.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o) (strstr)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(itoa.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o) (__itoa)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(itoa_ncheck.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o) (__itoa_ncheck)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ltoa.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o) (__ltoa)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ltoa_ncheck.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o) (__ltoa_ncheck)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(mulsi10.o)
+                              d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(atol.o) (__mulsi_const_10)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o) (__ultoa)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa_ncheck.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o) (__ultoa_ncheck)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(utoa.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o) (__utoa)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(utoa_ncheck.o)
+                              C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o) (__utoa_ncheck)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
+                              d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtostrf.o) (dtoa_prf)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o)
+                              d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(atof.o) (strtod)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
+                              d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtoa_prf.o) (__ftoa_engine)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+                              d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(isspace.o) (__ctype_isfalse)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strncasecmp_P.o)
+                              d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o) (strncasecmp_P)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strrev.o)
+                              d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa_ncheck.o) (strrev)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(errno.o)
+                              d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o) (errno)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+                              d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(realloc.o) (__prologue_saves__)
+d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+                              d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(realloc.o) (__epilogue_restores__)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x2               d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(errno.o)
+__brkval            0x2               d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
+__flp               0x2               d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
+
+Discarded input sections
+
+ .data          0x00000000        0x0 D:/Elec UNI/Atmel Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o
+ .bss           0x00000000        0x0 D:/Elec UNI/Atmel Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o
+ .text          0x00000000        0x0 UART.o
+ .data          0x00000000        0x0 UART.o
+ .bss           0x00000000        0x0 UART.o
+ .group         0x00000000        0x8 Sketch.o
+ .text          0x00000000        0x0 Sketch.o
+ .data          0x00000000        0x0 Sketch.o
+ .bss           0x00000000        0x0 Sketch.o
+ .data.tempFile
+                0x00000000        0x9 Sketch.o
+ .group         0x00000000        0x8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .text          0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .data          0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .bss           0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .text          0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .data          0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .bss           0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .text.atexit   0x00000000        0x6 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .text._Z8setupUSBv
+                0x00000000        0x2 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text          0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .data          0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .bss           0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print17availableForWriteEv
+                0x00000000        0x6 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5flushEv
+                0x00000000        0x2 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printEPK19__FlashStringHelper
+                0x00000000       0x48 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printERK6String
+                0x00000000       0x1c C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printERK9Printable
+                0x00000000       0x14 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEPK19__FlashStringHelper
+                0x00000000       0x24 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnERK6String
+                0x00000000       0x24 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEPKc
+                0x00000000       0x24 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEc
+                0x00000000       0x24 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnERK9Printable
+                0x00000000       0x24 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printEhi
+                0x00000000        0xe C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEhi
+                0x00000000       0x24 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEji
+                0x00000000       0x24 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEmi
+                0x00000000       0x24 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEli
+                0x00000000       0x24 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print10printFloatEdh
+                0x00000000      0x1b6 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printEdi
+                0x00000000        0x4 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEdi
+                0x00000000       0x24 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .rodata._ZTV5Print
+                0x00000000        0xc C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text          0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .data          0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .bss           0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .text.micros   0x00000000       0x4a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .text.delay    0x00000000       0x78 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .text.delayMicroseconds
+                0x00000000       0x16 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .text          0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .data          0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .bss           0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text          0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .data          0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .bss           0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZNK6String14StringIfHelperEv
+                0x00000000        0x2 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6String4copyEPK19__FlashStringHelperj
+                0x00000000       0x42 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6String4moveERS_
+                0x00000000       0x7a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6StringC2EOS_
+                0x00000000       0x12 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6StringC2EO15StringSumHelper
+                0x00000000       0x12 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6StringaSERKS_
+                0x00000000       0x2e C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6StringC2ERKS_
+                0x00000000       0x12 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6StringaSEOS_
+                0x00000000       0x18 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6StringaSEO15StringSumHelper
+                0x00000000       0x18 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6StringaSEPKc
+                0x00000000       0x2e C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6StringC2Ec
+                0x00000000       0x30 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6StringC2Ehh
+                0x00000000       0x5a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6StringC2Eih
+                0x00000000       0x58 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6StringC2Ejh
+                0x00000000       0x58 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6StringC2Elh
+                0x00000000       0x5a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6StringC2Emh
+                0x00000000       0x5a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6StringC2Efh
+                0x00000000       0x60 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6StringC2Edh
+                0x00000000       0x60 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6StringaSEPK19__FlashStringHelper
+                0x00000000       0x34 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6StringC2EPK19__FlashStringHelper
+                0x00000000       0x12 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6String6concatEPKcj
+                0x00000000       0x5c C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6String6concatERKS_
+                0x00000000        0xe C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6String6concatEPKc
+                0x00000000       0x1e C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6String6concatEc
+                0x00000000       0x26 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6String6concatEh
+                0x00000000       0x56 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6String6concatEi
+                0x00000000       0x60 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6String6concatEj
+                0x00000000       0x60 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6String6concatEl
+                0x00000000       0x62 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6String6concatEm
+                0x00000000       0x62 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6String6concatEf
+                0x00000000       0x62 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6String6concatEd
+                0x00000000       0x62 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6String6concatEPK19__FlashStringHelper
+                0x00000000       0x60 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZplRK15StringSumHelperRK6String
+                0x00000000       0x26 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZplRK15StringSumHelperPKc
+                0x00000000       0x32 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZplRK15StringSumHelperc
+                0x00000000       0x1c C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZplRK15StringSumHelperh
+                0x00000000       0x1c C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZplRK15StringSumHelperi
+                0x00000000       0x1c C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZplRK15StringSumHelperj
+                0x00000000       0x1c C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZplRK15StringSumHelperl
+                0x00000000       0x1c C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZplRK15StringSumHelperm
+                0x00000000       0x1c C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZplRK15StringSumHelperf
+                0x00000000       0x1c C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZplRK15StringSumHelperd
+                0x00000000       0x1c C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZplRK15StringSumHelperPK19__FlashStringHelper
+                0x00000000       0x1c C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZNK6String9compareToERKS_
+                0x00000000       0x60 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZNK6String6equalsERKS_
+                0x00000000       0x22 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZNK6String6equalsEPKc
+                0x00000000       0x3e C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZNK6StringltERKS_
+                0x00000000        0xe C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZNK6StringgtERKS_
+                0x00000000       0x12 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZNK6StringleERKS_
+                0x00000000       0x12 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZNK6StringgeERKS_
+                0x00000000       0x10 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZNK6String16equalsIgnoreCaseERKS_
+                0x00000000       0x66 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZNK6String10startsWithERKS_j
+                0x00000000       0x4c C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZNK6String10startsWithERKS_
+                0x00000000       0x1e C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZNK6String8endsWithERKS_
+                0x00000000       0x40 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6String9setCharAtEjc
+                0x00000000       0x1a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6StringixEj
+                0x00000000       0x24 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZNK6StringixEj
+                0x00000000       0x22 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZNK6String6charAtEj
+                0x00000000        0x4 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZNK6String8getBytesEPhjj
+                0x00000000       0x5e C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZNK6String7indexOfEcj
+                0x00000000       0x34 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZNK6String7indexOfEc
+                0x00000000        0x8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZNK6String7indexOfERKS_j
+                0x00000000       0x3a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZNK6String7indexOfERKS_
+                0x00000000        0x8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZNK6String11lastIndexOfEcj
+                0x00000000       0x6a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZNK6String11lastIndexOfEc
+                0x00000000        0xe C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZNK6String11lastIndexOfERKS_j
+                0x00000000       0x9c C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZNK6String11lastIndexOfERKS_
+                0x00000000       0x14 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .rodata.str1.1
+                0x00000000        0x1 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZNK6String9substringEjj
+                0x00000000       0x8a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6String7replaceEcc
+                0x00000000       0x1c C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6String7replaceERKS_S1_
+                0x00000000      0x1f4 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6String6removeEjj
+                0x00000000       0x66 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6String6removeEj
+                0x00000000        0x8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6String11toLowerCaseEv
+                0x00000000       0x24 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6String11toUpperCaseEv
+                0x00000000       0x24 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZN6String4trimEv
+                0x00000000       0xb8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZNK6String5toIntEv
+                0x00000000       0x16 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZNK6String8toDoubleEv
+                0x00000000       0x16 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZNK6String7toFloatEv
+                0x00000000        0x4 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .bss._ZZN6StringixEjE19dummy_writable_char
+                0x00000000        0x1 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+ .text          0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+ .data          0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+ .bss           0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+ .text._ZN5Print17availableForWriteEv
+                0x00000000        0x6 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+ .text._ZN5Print5flushEv
+                0x00000000        0x2 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+ .text._ZN5SDLib4File4nameEv
+                0x00000000        0x4 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+ .text._ZN5SDLib4File11isDirectoryEv
+                0x00000000       0x1a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+ .text._ZN5SDLib4File4readEPvj
+                0x00000000       0x14 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+ .text          0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+ .data          0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+ .bss           0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+ .text._ZN5SDLib19callback_pathExistsER6SdFilePKcbPv
+                0x00000000       0x5a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+ .text._ZN5SDLib20callback_makeDirPathER6SdFilePKcbPv
+                0x00000000       0x6a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+ .text._ZN5SDLib14callback_rmdirER6SdFilePKcbPv
+                0x00000000       0x60 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+ .text._ZN5SDLib7SDClass5beginEmh
+                0x00000000       0x7a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+ .text._ZN5SDLib7SDClass3endEv
+                0x00000000        0x6 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+ .text._ZN5SDLib7SDClass6existsEPKc
+                0x00000000       0x16 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+ .text._ZN5SDLib7SDClass5mkdirEPKc
+                0x00000000       0x16 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+ .text._ZN5SDLib7SDClass5rmdirEPKc
+                0x00000000       0x16 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+ .text._ZN5SDLib4File12openNextFileEh
+                0x00000000       0xd4 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+ .text._ZN5SDLib4File15rewindDirectoryEv
+                0x00000000       0x28 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+ .text          0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+ .data          0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+ .bss           0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+ .text._ZN7Sd2Card16partialBlockReadEh
+                0x00000000       0x18 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+ .text._ZN7Sd2Card11setSpiClockEm
+                0x00000000       0x32 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+ .text._ZN7Sd2Card12readRegisterEhPv
+                0x00000000       0x6c C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+ .text._ZN7Sd2Card8cardSizeEv
+                0x00000000      0x10a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+ .text._ZN7Sd2Card22eraseSingleBlockEnableEv
+                0x00000000       0x3e C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+ .text._ZN7Sd2Card5eraseEmm
+                0x00000000       0xc4 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+ .text._ZN7Sd2Card9writeDataEPKh
+                0x00000000       0x40 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+ .text._ZN7Sd2Card10writeStartEmm
+                0x00000000       0x9c C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+ .text._ZN7Sd2Card9writeStopEv
+                0x00000000       0x42 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .text          0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .data          0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .bss           0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .text._ZN5Print17availableForWriteEv
+                0x00000000        0x6 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .text._ZN5Print5flushEv
+                0x00000000        0x2 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .text._ZN6SdFile15contiguousRangeEPmS0_
+                0x00000000      0x15e C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .text._ZN6SdFile7dirNameERK14directoryEntryPc
+                0x00000000       0x3a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .text._ZN6SdFile14printTwoDigitsEh
+                0x00000000       0x36 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .text._ZN6SdFile12printFatDateEj
+                0x00000000       0x50 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .text._ZN6SdFile12printFatTimeEj
+                0x00000000       0x46 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .text._ZN6SdFile7readDirEP14directoryEntry
+                0x00000000       0x6a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .text._ZN6SdFile8dirEntryEP14directoryEntry
+                0x00000000       0x3e C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .text._ZN6SdFile9timestampEhjhhhhh
+                0x00000000      0x124 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .text._ZN6SdFile7makeDirEPS_PKc
+                0x00000000      0x1c8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .text._ZN6SdFile4openEPS_jh
+                0x00000000       0x90 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .text._ZN6SdFile16createContiguousEPS_PKcm
+                0x00000000       0xa4 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .text._ZN6SdFile5rmDirEv
+                0x00000000       0x76 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .text._ZN6SdFile8rmRfStarEv
+                0x00000000      0x13e C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .text._ZN6SdFile5writeEPKc
+                0x00000000       0x14 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .text._ZN6SdFile7write_PEPKc
+                0x00000000       0x32 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .text._ZN6SdFile9writeln_PEPKc
+                0x00000000       0x14 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .text._ZN6SdFile12printDirNameERK14directoryEntryh
+                0x00000000       0x76 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .text._ZN6SdFile2lsEhh
+                0x00000000      0x1cc C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .bss._ZN6SdFile12oldDateTime_E
+                0x00000000        0x2 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .text          0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdVolume.o)
+ .data          0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdVolume.o)
+ .bss           0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdVolume.o)
+ .text          0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+ .data          0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+ .bss           0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+ .text._ZN8SPIClass3endEv
+                0x00000000       0x28 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+ .text._ZN8SPIClass14usingInterruptEh
+                0x00000000       0x38 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+ .text._ZN8SPIClass17notUsingInterruptEh
+                0x00000000       0x36 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+ .bss.SPI       0x00000000        0x1 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+ .text          0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .data          0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .bss           0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .text.__cxa_pure_virtual
+                0x00000000        0x4 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .text.__cxa_deleted_virtual
+                0x00000000        0x4 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .debug_info    0x00000000       0x76 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .debug_abbrev  0x00000000       0x6d C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .debug_aranges
+                0x00000000       0x20 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .debug_ranges  0x00000000       0x10 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .debug_line    0x00000000       0x9e C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .debug_str     0x00000000      0x191 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .comment       0x00000000       0x31 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .debug_frame   0x00000000       0x34 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .text          0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .data          0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .bss           0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .text._ZN14HardwareSerial5beginEmh
+                0x00000000       0xca C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .text._ZN14HardwareSerial3endEv
+                0x00000000       0x44 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .text          0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .data          0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .bss           0x00000000        0x0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .text.__empty  0x00000000        0x2 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_info    0x00000000       0x3e C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_abbrev  0x00000000       0x2a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_aranges
+                0x00000000       0x20 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_ranges  0x00000000       0x10 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_line    0x00000000       0x41 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_str     0x00000000      0x132 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .comment       0x00000000       0x31 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_frame   0x00000000       0x24 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .text.avr-libc.fplib
+                0x00000000        0xe d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .text.avr-libc.fplib
+                0x00000000       0xcc d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .text.avr-libc.fplib
+                0x00000000        0xa d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .text.avr-libc.fplib
+                0x00000000        0x8 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .text.avr-libc.fplib
+                0x00000000       0xdc d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .text.avr-libc.fplib
+                0x00000000       0x5e d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .text.avr-libc.fplib
+                0x00000000       0x7a d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .text.avr-libc.fplib
+                0x00000000       0x48 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .text.avr-libc.fplib
+                0x00000000        0xc d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .text.avr-libc.fplib
+                0x00000000        0x6 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .text.avr-libc.fplib
+                0x00000000        0xe d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .text.avr-libc.fplib
+                0x00000000        0xe d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .text.avr-libc.fplib
+                0x00000000       0x22 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .text.avr-libc.fplib
+                0x00000000       0x44 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .text.avr-libc.fplib
+                0x00000000        0xe d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .text.avr-libc.fplib
+                0x00000000        0xa d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .text.avr-libc.fplib
+                0x00000000        0x8 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .text.avr-libc.fplib
+                0x00000000       0xd2 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+ .text.avr-libc.fplib
+                0x00000000        0xa d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodqi4.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodqi4.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.div
+                0x00000000       0x18 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodqi4.o)
+ .text.libgcc   0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodqi4.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
+ .text.libgcc   0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
+ .text.libgcc.mul
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
+ .text.libgcc   0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.mul
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.div
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .text.libgcc   0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc   0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtostrf.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtostrf.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtostrf.o)
+ .text.avr-libc
+                0x00000000       0x40 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtostrf.o)
+ .comment       0x00000000       0x31 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtostrf.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(realloc.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(realloc.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(realloc.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(abort.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(abort.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(abort.o)
+ .text.avr-libc
+                0x00000000        0xa d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(abort.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(atof.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(atof.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(atof.o)
+ .text.avr-libc
+                0x00000000        0x8 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(atof.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(atol.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(atol.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(atol.o)
+ .text.avr-libc
+                0x00000000       0x4e d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(atol.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(isspace.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(isspace.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(isspace.o)
+ .text.avr-libc
+                0x00000000       0x12 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(isspace.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(tolower.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(tolower.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(tolower.o)
+ .text.avr-libc
+                0x00000000       0x10 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(tolower.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(toupper.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(toupper.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(toupper.o)
+ .text.avr-libc
+                0x00000000       0x10 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(toupper.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcpy_P.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcpy_P.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcpy_P.o)
+ .text.avr-libc
+                0x00000000        0xe d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcpy_P.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strlen_P.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strlen_P.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strlen_P.o)
+ .text.avr-libc
+                0x00000000       0x12 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strlen_P.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcmp.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcmp.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcmp.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memmove.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memmove.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memmove.o)
+ .text.avr-libc
+                0x00000000       0x24 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memmove.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strchr.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strchr.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strchr.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcmp.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcmp.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcmp.o)
+ .text.avr-libc
+                0x00000000       0x12 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcmp.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcpy.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcpy.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcpy.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strncmp.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strncmp.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strncmp.o)
+ .text.avr-libc
+                0x00000000       0x1c d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strncmp.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strncpy.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strncpy.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strncpy.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strrchr.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strrchr.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strrchr.o)
+ .text.avr-libc
+                0x00000000       0x16 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strrchr.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strstr.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strstr.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strstr.o)
+ .text.avr-libc
+                0x00000000       0x34 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strstr.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(itoa.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(itoa.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(itoa.o)
+ .text.avr-libc
+                0x00000000       0x16 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(itoa.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(itoa_ncheck.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(itoa_ncheck.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(itoa_ncheck.o)
+ .text.avr-libc
+                0x00000000       0x16 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(itoa_ncheck.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ltoa.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ltoa.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ltoa.o)
+ .text.avr-libc
+                0x00000000       0x16 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ltoa.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ltoa_ncheck.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ltoa_ncheck.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ltoa_ncheck.o)
+ .text.avr-libc
+                0x00000000       0x1e d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ltoa_ncheck.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(mulsi10.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(mulsi10.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(mulsi10.o)
+ .text.avr-libc
+                0x00000000       0x2a d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(mulsi10.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa.o)
+ .text.avr-libc
+                0x00000000       0x16 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa_ncheck.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa_ncheck.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa_ncheck.o)
+ .text.avr-libc
+                0x00000000       0x44 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa_ncheck.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(utoa.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(utoa.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(utoa.o)
+ .text.avr-libc
+                0x00000000       0x16 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(utoa.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(utoa_ncheck.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(utoa_ncheck.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(utoa_ncheck.o)
+ .text.avr-libc
+                0x00000000       0x34 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(utoa_ncheck.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
+ .text.avr-libc
+                0x00000000      0x2b4 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
+ .comment       0x00000000       0x31 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o)
+ .text.avr-libc
+                0x00000000      0x29c d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o)
+ .progmem.data  0x00000000       0x3b d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o)
+ .comment       0x00000000       0x31 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strtod.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
+ .text.avr-libc
+                0x00000000      0x1b0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
+ .progmem.data  0x00000000       0xfa d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+ .text.avr-libc
+                0x00000000        0x6 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strncasecmp_P.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strncasecmp_P.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strncasecmp_P.o)
+ .text.avr-libc
+                0x00000000       0x30 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strncasecmp_P.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strrev.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strrev.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strrev.o)
+ .text.avr-libc
+                0x00000000       0x20 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strrev.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(errno.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(errno.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(errno.o)
+ .comment       0x00000000       0x2d d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(errno.o)
+ COMMON         0x00000000        0x2 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(errno.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.mul
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.div
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc   0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .data          0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .bss           0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.mul
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.div
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc   0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00008000         xr
+data             0x00800100         0x00000800         rw !x
+eeprom           0x00810000         0x00000400         rw !x
+fuse             0x00820000         0x00000003         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD D:/Elec UNI/Atmel Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o
+LOAD UART.o
+LOAD Sketch.o
+START GROUP
+LOAD d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
+LOAD C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a
+END GROUP
+LOAD d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a
+LOAD d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
+START GROUP
+LOAD d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a
+LOAD d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
+LOAD d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a
+LOAD D:/Elec UNI/Atmel Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5\libatmega328p.a
+END GROUP
+                0x00000000                __TEXT_REGION_ORIGIN__ = DEFINED (__TEXT_REGION_ORIGIN__)?__TEXT_REGION_ORIGIN__:0x0
+                [0x00800100]                __DATA_REGION_ORIGIN__ = DEFINED (__DATA_REGION_ORIGIN__)?__DATA_REGION_ORIGIN__:0x800060
+                [0x00008000]                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                [0x00000800]                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                [0x00000400]                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x00000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x00000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x00000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x00000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x3c5e
+ *(.vectors)
+ .vectors       0x00000000       0x68 D:/Elec UNI/Atmel Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x00000068                . = ALIGN (0x2)
+                0x00000068                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000068        0x0 linker stubs
+ *(.trampolines*)
+                0x00000068                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+ .progmem.data.digital_pin_to_timer_PGM
+                0x00000068       0x14 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00000068                digital_pin_to_timer_PGM
+ .progmem.data.digital_pin_to_bit_mask_PGM
+                0x0000007c       0x14 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x0000007c                digital_pin_to_bit_mask_PGM
+ .progmem.data.digital_pin_to_port_PGM
+                0x00000090       0x14 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00000090                digital_pin_to_port_PGM
+ .progmem.data.port_to_input_PGM
+                0x000000a4        0xa C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x000000a4                port_to_input_PGM
+ .progmem.data.port_to_output_PGM
+                0x000000ae        0xa C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x000000ae                port_to_output_PGM
+ .progmem.data.port_to_mode_PGM
+                0x000000b8        0xa C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x000000b8                port_to_mode_PGM
+ .progmem.data._ZZN6SdFile10make83NameEPKcPhE3__c
+                0x000000c2       0x10 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+                0x000000d2                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000000d2                __ctors_start = .
+ *(.ctors)
+ .ctors         0x000000d2        0x2 Sketch.o
+ .ctors         0x000000d4        0x2 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .ctors         0x000000d6        0x2 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+ .ctors         0x000000d8        0x2 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+                0x000000da                __ctors_end = .
+                0x000000da                __dtors_start = .
+ *(.dtors)
+                0x000000da                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000000da        0x0 D:/Elec UNI/Atmel Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o
+                0x000000da                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000000da        0xc D:/Elec UNI/Atmel Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000000e6       0x16 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+                0x000000e6                __do_copy_data
+ .init4         0x000000fc       0x10 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+                0x000000fc                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ .init6         0x0000010c       0x16 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
+                0x0000010c                __do_global_ctors
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000122        0x8 D:/Elec UNI/Atmel Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o
+ *(.init9)
+ *(.text)
+ .text          0x0000012a        0x4 D:/Elec UNI/Atmel Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o
+                0x0000012a                __vector_22
+                0x0000012a                __vector_24
+                0x0000012a                __vector_12
+                0x0000012a                __bad_interrupt
+                0x0000012a                __vector_6
+                0x0000012a                __vector_3
+                0x0000012a                __vector_23
+                0x0000012a                __vector_25
+                0x0000012a                __vector_11
+                0x0000012a                __vector_13
+                0x0000012a                __vector_17
+                0x0000012a                __vector_7
+                0x0000012a                __vector_5
+                0x0000012a                __vector_4
+                0x0000012a                __vector_2
+                0x0000012a                __vector_21
+                0x0000012a                __vector_15
+                0x0000012a                __vector_8
+                0x0000012a                __vector_14
+                0x0000012a                __vector_10
+                0x0000012a                __vector_20
+                0x0000012e                . = ALIGN (0x2)
+ *(.text.*)
+ .text._Z9UART_Initj
+                0x0000012e       0x2c UART.o
+                0x0000012e                _Z9UART_Initj
+ .text._Z9UART_putch
+                0x0000015a        0xe UART.o
+                0x0000015a                _Z9UART_putch
+ .text._Z9UART_putsPc
+                0x00000168       0x18 UART.o
+                0x00000168                _Z9UART_putsPc
+ .text._Z9Port_Initv
+                0x00000180       0x66 Sketch.o
+                0x00000180                _Z9Port_Initv
+ .text.setup    0x000001e6       0x36 Sketch.o
+                0x000001e6                setup
+ .text._ZN5SDLib4FileaSEOS0_
+                0x0000021c       0x62 Sketch.o
+                0x0000021c                _ZN5SDLib4FileaSEOS0_
+ .text.startup._GLOBAL__sub_I_PlayFlag
+                0x0000027e       0x18 Sketch.o
+ .text._Z9playAudio6String
+                0x00000296      0x112 Sketch.o
+                0x00000296                _Z9playAudio6String
+ .text.__vector_9
+                0x000003a8       0xb4 Sketch.o
+                0x000003a8                __vector_9
+ .text._Z11RecordAudio6String
+                0x0000045c      0x138 Sketch.o
+                0x0000045c                _Z11RecordAudio6String
+ .text.loop     0x00000594       0x94 Sketch.o
+                0x00000594                loop
+ .text.__vector_1
+                0x00000628       0xaa Sketch.o
+                0x00000628                __vector_1
+ .text._ZN5Print17availableForWriteEv
+                0x000006d2        0x6 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x000006d2                _ZN5Print17availableForWriteEv
+ .text._ZN5Print5flushEv
+                0x000006d8        0x2 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x000006d8                _ZN5Print5flushEv
+ .text.__vector_18
+                0x000006da       0x64 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x000006da                __vector_18
+ .text.__vector_19
+                0x0000073e       0x4c C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x0000073e                __vector_19
+ .text._Z17Serial0_availablev
+                0x0000078a       0x14 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x0000078a                _Z17Serial0_availablev
+ .text.startup._GLOBAL__sub_I___vector_18
+                0x0000079e       0x5a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .text.initVariant
+                0x000007f8        0x2 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(main.o)
+                0x000007f8                initVariant
+ .text.startup.main
+                0x000007fa       0x1e C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(main.o)
+                0x000007fa                main
+ .text._ZN5Print5writeEPKhj
+                0x00000818       0x54 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000818                _ZN5Print5writeEPKhj
+ .text._ZN5Print5writeEPKc
+                0x0000086c       0x2a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x0000086c                _ZN5Print5writeEPKc
+ .text._ZN5Print5printEPKc
+                0x00000896        0x4 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000896                _ZN5Print5printEPKc
+ .text._ZN5Print5printEc
+                0x0000089a        0xe C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x0000089a                _ZN5Print5printEc
+ .text._ZN5Print7printlnEv
+                0x000008a8        0x8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x000008a8                _ZN5Print7printlnEv
+ .text._ZN5Print11printNumberEmh
+                0x000008b0       0x92 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x000008b0                _ZN5Print11printNumberEmh
+ .text._ZN5Print5printEmi
+                0x00000942       0x1a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000942                _ZN5Print5printEmi
+ .text._ZN5Print5printEji
+                0x0000095c        0xc C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x0000095c                _ZN5Print5printEji
+ .text._ZN5Print5printEli
+                0x00000968       0x90 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000968                _ZN5Print5printEli
+ .text._ZN5Print5printEii
+                0x000009f8        0xe C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x000009f8                _ZN5Print5printEii
+ .text._ZN5Print7printlnEii
+                0x00000a06       0x24 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000a06                _ZN5Print7printlnEii
+ .text.__vector_16
+                0x00000a2a       0x94 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00000a2a                __vector_16
+ .text.millis   0x00000abe       0x18 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00000abe                millis
+ .text.init     0x00000ad6       0x76 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00000ad6                init
+ .text.turnOffPWM
+                0x00000b4c       0x52 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .text.pinMode  0x00000b9e       0x78 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00000b9e                pinMode
+ .text.digitalWrite
+                0x00000c16       0x5e C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00000c16                digitalWrite
+ .text.digitalRead
+                0x00000c74       0x52 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00000c74                digitalRead
+ .text._ZN6StringD2Ev
+                0x00000cc6        0xa C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000cc6                _ZN6StringD2Ev
+                0x00000cc6                _ZN6StringD1Ev
+ .text._ZN6String10invalidateEv
+                0x00000cd0       0x24 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000cd0                _ZN6String10invalidateEv
+ .text._ZN6String12changeBufferEj
+                0x00000cf4       0x34 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000cf4                _ZN6String12changeBufferEj
+ .text._ZN6String7reserveEj
+                0x00000d28       0x38 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000d28                _ZN6String7reserveEj
+ .text._ZN6String4copyEPKcj
+                0x00000d60       0x42 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000d60                _ZN6String4copyEPKcj
+ .text._ZN6StringC2EPKc
+                0x00000da2       0x2a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00000da2                _ZN6StringC2EPKc
+                0x00000da2                _ZN6StringC1EPKc
+ .text._ZN5SDLib4File5writeEh
+                0x00000dcc       0x2c C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+                0x00000dcc                _ZN5SDLib4File5writeEh
+ .text._ZN5SDLib4File5writeEPKhj
+                0x00000df8       0x38 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+                0x00000df8                _ZN5SDLib4File5writeEPKhj
+ .text._ZN5SDLib4File5flushEv
+                0x00000e30       0x10 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+                0x00000e30                _ZN5SDLib4File5flushEv
+ .text._ZN6SdFile4readEv
+                0x00000e40       0x2e C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+                0x00000e40                _ZN6SdFile4readEv
+ .text._ZN5SDLib4File4readEv
+                0x00000e6e       0x14 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+                0x00000e6e                _ZN5SDLib4File4readEv
+ .text._ZN5SDLib4File4peekEv
+                0x00000e82       0x54 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+                0x00000e82                _ZN5SDLib4File4peekEv
+ .text._ZN5SDLib4FileC2E6SdFilePKc
+                0x00000ed6       0x6a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+                0x00000ed6                _ZN5SDLib4FileC1E6SdFilePKc
+                0x00000ed6                _ZN5SDLib4FileC2E6SdFilePKc
+ .text._ZN5SDLib4FileC2Ev
+                0x00000f40       0x26 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+                0x00000f40                _ZN5SDLib4FileC2Ev
+                0x00000f40                _ZN5SDLib4FileC1Ev
+ .text._ZN5SDLib4File4seekEm
+                0x00000f66       0x1a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+                0x00000f66                _ZN5SDLib4File4seekEm
+ .text._ZN5SDLib4File8positionEv
+                0x00000f80       0x20 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+                0x00000f80                _ZN5SDLib4File8positionEv
+ .text._ZN5SDLib4File4sizeEv
+                0x00000fa0       0x20 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+                0x00000fa0                _ZN5SDLib4File4sizeEv
+ .text._ZN5SDLib4File9availableEv
+                0x00000fc0       0x5e C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+                0x00000fc0                _ZN5SDLib4File9availableEv
+ .text._ZN5SDLib4File5closeEv
+                0x0000101e       0x24 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+                0x0000101e                _ZN5SDLib4File5closeEv
+ .text._ZN5SDLib4FilecvbEv
+                0x00001042       0x1a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+                0x00001042                _ZN5SDLib4FilecvbEv
+ .text._ZN5SDLib15callback_removeER6SdFilePKcbPv
+                0x0000105c       0x18 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+                0x0000105c                _ZN5SDLib15callback_removeER6SdFilePKcbPv
+ .text._ZN8SdVolume4initEP7Sd2Card
+                0x00001074       0x34 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+                0x00001074                _ZN8SdVolume4initEP7Sd2Card
+ .text._ZN5SDLib20getNextPathComponentEPKcPjPc
+                0x000010a8       0x8a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+                0x000010a8                _ZN5SDLib20getNextPathComponentEPKcPjPc
+ .text._ZN5SDLib8walkPathEPKcR6SdFilePFbS3_S1_bPvES4_
+                0x00001132      0x120 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+                0x00001132                _ZN5SDLib8walkPathEPKcR6SdFilePFbS3_S1_bPvES4_
+ .text._ZN5SDLib7SDClass5beginEh
+                0x00001252       0x58 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+                0x00001252                _ZN5SDLib7SDClass5beginEh
+ .text._ZN6SdFileC2ERKS_
+                0x000012aa       0xa2 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+                0x000012aa                _ZN6SdFileC1ERKS_
+                0x000012aa                _ZN6SdFileC2ERKS_
+ .text._ZN5SDLib7SDClass12getParentDirEPKcPi
+                0x0000134c      0x14a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+                0x0000134c                _ZN5SDLib7SDClass12getParentDirEPKcPi
+ .text._ZN5SDLib7SDClass4openEPKch
+                0x00001496       0xee C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+                0x00001496                _ZN5SDLib7SDClass4openEPKch
+ .text._ZN5SDLib7SDClass6removeEPKc
+                0x00001584       0x16 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+                0x00001584                _ZN5SDLib7SDClass6removeEPKc
+ .text.startup._GLOBAL__sub_I__ZN5SDLib20getNextPathComponentEPKcPjPc
+                0x0000159a       0x2e C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+ .text._ZN8SPIClass14endTransactionEv.part.3
+                0x000015c8       0x1a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+ .text._ZN11SPISettingsC2Emhh
+                0x000015e2       0x4a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+                0x000015e2                _ZN11SPISettingsC1Emhh
+                0x000015e2                _ZN11SPISettingsC2Emhh
+ .text._ZN8SPIClass16beginTransactionE11SPISettings
+                0x0000162c       0x34 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+                0x0000162c                _ZN8SPIClass16beginTransactionE11SPISettings
+ .text._ZN8SPIClass8transferEh
+                0x00001660        0xe C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+                0x00001660                _ZN8SPIClass8transferEh
+ .text._ZL6spiRecv
+                0x0000166e        0x6 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+ .text._ZN7Sd2Card14chipSelectHighEv
+                0x00001674       0x22 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+                0x00001674                _ZN7Sd2Card14chipSelectHighEv
+ .text._ZN7Sd2Card13chipSelectLowEv
+                0x00001696       0x2c C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+                0x00001696                _ZN7Sd2Card13chipSelectLowEv
+ .text._ZN7Sd2Card7readEndEv
+                0x000016c2       0x34 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+                0x000016c2                _ZN7Sd2Card7readEndEv
+ .text._ZN7Sd2Card10setSckRateEh
+                0x000016f6       0xb4 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+                0x000016f6                _ZN7Sd2Card10setSckRateEh
+ .text._ZN7Sd2Card11waitNotBusyEj
+                0x000017aa       0x36 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+                0x000017aa                _ZN7Sd2Card11waitNotBusyEj
+ .text._ZN7Sd2Card11cardCommandEhm
+                0x000017e0       0x9e C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+                0x000017e0                _ZN7Sd2Card11cardCommandEhm
+ .text._ZN7Sd2Card4initEhh
+                0x0000187e      0x1b2 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+                0x0000187e                _ZN7Sd2Card4initEhh
+ .text._ZN7Sd2Card14waitStartBlockEv
+                0x00001a30       0x4a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+                0x00001a30                _ZN7Sd2Card14waitStartBlockEv
+ .text._ZN7Sd2Card8readDataEmjjPh.part.6
+                0x00001a7a       0xf8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+ .text._ZN7Sd2Card8readDataEmjjPh
+                0x00001b72       0x20 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+                0x00001b72                _ZN7Sd2Card8readDataEmjjPh
+ .text._ZN7Sd2Card9readBlockEmPh
+                0x00001b92       0x20 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+                0x00001b92                _ZN7Sd2Card9readBlockEmPh
+ .text._ZN7Sd2Card9writeDataEhPKh
+                0x00001bb2       0x60 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+                0x00001bb2                _ZN7Sd2Card9writeDataEhPKh
+ .text._ZN7Sd2Card10writeBlockEmPKh
+                0x00001c12       0x9c C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+                0x00001c12                _ZN7Sd2Card10writeBlockEmPKh
+ .text.startup._GLOBAL__sub_I__ZN7Sd2Card11cardCommandEhm
+                0x00001cae        0xc C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+ .text._ZN6SdFile10addClusterEv
+                0x00001cba       0x4e C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+                0x00001cba                _ZN6SdFile10addClusterEv
+ .text._ZN6SdFile13addDirClusterEv
+                0x00001d08       0xc0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+                0x00001d08                _ZN6SdFile13addDirClusterEv
+ .text._ZN6SdFile13cacheDirEntryEh
+                0x00001dc8       0x32 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+                0x00001dc8                _ZN6SdFile13cacheDirEntryEh
+ .text._ZN6SdFile10make83NameEPKcPh
+                0x00001dfa       0x72 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+                0x00001dfa                _ZN6SdFile10make83NameEPKcPh
+ .text._ZN6SdFile8openRootEP8SdVolume
+                0x00001e6c       0xa2 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+                0x00001e6c                _ZN6SdFile8openRootEP8SdVolume
+ .text._ZN6SdFile4readEPvj
+                0x00001f0e      0x20a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+                0x00001f0e                _ZN6SdFile4readEPvj
+ .text._ZN6SdFile12readDirCacheEv
+                0x00002118       0x92 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+                0x00002118                _ZN6SdFile12readDirCacheEv
+ .text._ZN6SdFile7seekSetEm
+                0x000021aa      0x12e C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+                0x000021aa                _ZN6SdFile7seekSetEm
+ .text._ZN6SdFile4syncEv
+                0x000022d8       0x8e C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+                0x000022d8                _ZN6SdFile4syncEv
+ .text._ZN6SdFile5closeEv
+                0x00002366       0x18 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+                0x00002366                _ZN6SdFile5closeEv
+ .text._ZN6SdFile8truncateEm
+                0x0000237e      0x168 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+                0x0000237e                _ZN6SdFile8truncateEm
+ .text._ZN6SdFile15openCachedEntryEhh
+                0x000024e6       0xd0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+                0x000024e6                _ZN6SdFile15openCachedEntryEhh
+ .text._ZN6SdFile4openEPS_PKch
+                0x000025b6      0x1d8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+                0x000025b6                _ZN6SdFile4openEPS_PKch
+ .text._ZN6SdFile6removeEv
+                0x0000278e       0x38 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+                0x0000278e                _ZN6SdFile6removeEv
+ .text._ZN6SdFile6removeEPS_PKc
+                0x000027c6       0x4e C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+                0x000027c6                _ZN6SdFile6removeEPS_PKc
+ .text._ZN6SdFile5writeEPKvj
+                0x00002814      0x342 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+                0x00002814                _ZN6SdFile5writeEPKvj
+ .text._ZN6SdFile5writeEh
+                0x00002b56       0x22 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+                0x00002b56                _ZN6SdFile5writeEh
+ .text._ZN8SdVolume10cacheFlushEv
+                0x00002b78       0x76 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdVolume.o)
+                0x00002b78                _ZN8SdVolume10cacheFlushEv
+ .text._ZN8SdVolume13cacheRawBlockEmh
+                0x00002bee       0x76 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdVolume.o)
+                0x00002bee                _ZN8SdVolume13cacheRawBlockEmh
+ .text._ZN8SdVolume14cacheZeroBlockEm
+                0x00002c64       0x48 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdVolume.o)
+                0x00002c64                _ZN8SdVolume14cacheZeroBlockEm
+ .text._ZNK8SdVolume6fatGetEmPm
+                0x00002cac      0x106 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdVolume.o)
+                0x00002cac                _ZNK8SdVolume6fatGetEmPm
+ .text._ZNK8SdVolume9chainSizeEmPm
+                0x00002db2       0xd2 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdVolume.o)
+                0x00002db2                _ZNK8SdVolume9chainSizeEmPm
+ .text._ZN8SdVolume6fatPutEmm
+                0x00002e84      0x142 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdVolume.o)
+                0x00002e84                _ZN8SdVolume6fatPutEmm
+ .text._ZN8SdVolume15allocContiguousEmPm
+                0x00002fc6      0x22a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdVolume.o)
+                0x00002fc6                _ZN8SdVolume15allocContiguousEmPm
+ .text._ZN8SdVolume9freeChainEm
+                0x000031f0       0xac C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdVolume.o)
+                0x000031f0                _ZN8SdVolume9freeChainEm
+ .text._ZN8SdVolume4initEP7Sd2Cardh
+                0x0000329c      0x22e C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdVolume.o)
+                0x0000329c                _ZN8SdVolume4initEP7Sd2Cardh
+ .text._ZN8SPIClass5beginEv
+                0x000034ca       0x6c C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+                0x000034ca                _ZN8SPIClass5beginEv
+ .text._ZN14HardwareSerial9availableEv
+                0x00003536       0x18 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00003536                _ZN14HardwareSerial9availableEv
+ .text._ZN14HardwareSerial4peekEv
+                0x0000354e       0x1c C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x0000354e                _ZN14HardwareSerial4peekEv
+ .text._ZN14HardwareSerial4readEv
+                0x0000356a       0x28 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x0000356a                _ZN14HardwareSerial4readEv
+ .text._ZN14HardwareSerial17availableForWriteEv
+                0x00003592       0x26 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00003592                _ZN14HardwareSerial17availableForWriteEv
+ .text._Z14serialEventRunv
+                0x000035b8       0x1c C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000035b8                _Z14serialEventRunv
+ .text._ZN14HardwareSerial17_tx_udr_empty_irqEv
+                0x000035d4       0x40 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000035d4                _ZN14HardwareSerial17_tx_udr_empty_irqEv
+ .text._ZN14HardwareSerial5writeEh
+                0x00003614       0x96 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00003614                _ZN14HardwareSerial5writeEh
+ .text._ZN14HardwareSerial5flushEv
+                0x000036aa       0x44 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000036aa                _ZN14HardwareSerial5flushEv
+ .text.libgcc.div
+                0x000036ee       0x44 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x000036ee                __udivmodsi4
+ .text.libgcc.div
+                0x00003732       0x2e d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
+                0x00003732                __divmodsi4
+ .text.libgcc.div
+                0x00003760       0x10 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
+                0x00003760                __negsi2
+ .text.libgcc.mul
+                0x00003770       0x16 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+                0x00003770                __muluhisi3
+ .text.libgcc   0x00003786        0xc d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+                0x00003786                __tablejump2__
+ .text.libgcc.mul
+                0x00003792       0x1e d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+                0x00003792                __umulhisi3
+ .text.avr-libc
+                0x000037b0      0x242 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x000037b0                malloc
+                0x000038e0                free
+ .text.avr-libc
+                0x000039f2      0x18c d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(realloc.o)
+                0x000039f2                realloc
+ .text.avr-libc
+                0x00003b7e       0x1a d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcmp.o)
+                0x00003b7e                memcmp
+ .text.avr-libc
+                0x00003b98       0x12 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+                0x00003b98                memcpy
+ .text.avr-libc
+                0x00003baa       0x16 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strchr.o)
+                0x00003baa                strchr
+ .text.avr-libc
+                0x00003bc0        0xe d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcpy.o)
+                0x00003bc0                strcpy
+ .text.avr-libc
+                0x00003bce       0x1e d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strncpy.o)
+                0x00003bce                strncpy
+ .text.libgcc.prologue
+                0x00003bec       0x38 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+                0x00003bec                __prologue_saves__
+ .text.libgcc.prologue
+                0x00003c24       0x36 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+                0x00003c24                __epilogue_restores__
+                0x00003c5a                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00003c5a        0x0 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                0x00003c5a                _exit
+                0x00003c5a                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00003c5a        0x4 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00003c5e                _etext = .
+
+.data           0x00800100       0xde load address 0x00003c5e
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x6 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x00800100                __malloc_heap_end
+                0x00800102                __malloc_heap_start
+                0x00800104                __malloc_margin
+ *(.data*)
+ .data.sampleData
+                0x00800106       0x2c Sketch.o
+                0x00800106                sampleData
+ .data.recfilename
+                0x00800132        0xc Sketch.o
+                0x00800132                recfilename
+ .data.playfilename
+                0x0080013e        0xb Sketch.o
+                0x0080013e                playfilename
+ .data.STOPBtn  0x00800149        0x1 Sketch.o
+                0x00800149                STOPBtn
+ .data.RECBtn   0x0080014a        0x1 Sketch.o
+                0x0080014a                RECBtn
+ .data.PLAYBtn  0x0080014b        0x1 Sketch.o
+                0x0080014b                PLAYBtn
+ .data._ZN8SdVolume17cacheBlockNumber_E
+                0x0080014c        0x4 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdVolume.o)
+                0x0080014c                _ZN8SdVolume17cacheBlockNumber_E
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.1
+                0x00800150       0x4c Sketch.o
+ .rodata.str1.1
+                0x0080019c        0xf C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .rodata._ZTVN5SDLib4FileE
+                0x008001ab       0x12 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+                0x008001ab                _ZTVN5SDLib4FileE
+ .rodata.str1.1
+                0x008001bd        0x2 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+ .rodata._ZTV6SdFile
+                0x008001bf        0xc C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+                0x008001bf                _ZTV6SdFile
+ .rodata._ZTV14HardwareSerial
+                0x008001cb       0x12 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x008001cb                _ZTV14HardwareSerial
+ *(.gnu.linkonce.r*)
+                0x008001de                . = ALIGN (0x2)
+ *fill*         0x008001dd        0x1 
+                0x008001de                _edata = .
+                0x008001de                PROVIDE (__data_end, .)
+
+.bss            0x008001de      0x51a
+                0x008001de                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.temp      0x008001de       0x1b Sketch.o
+                0x008001de                temp
+ .bss.RecFile   0x008001f9       0x1b Sketch.o
+                0x008001f9                RecFile
+ .bss.PlayFile  0x00800214       0x1b Sketch.o
+                0x00800214                PlayFile
+ .bss.numBytes  0x0080022f        0x2 Sketch.o
+                0x0080022f                numBytes
+ .bss.dataCount
+                0x00800231        0x2 Sketch.o
+                0x00800231                dataCount
+ .bss.RecFlag   0x00800233        0x1 Sketch.o
+                0x00800233                RecFlag
+ .bss.PlayFlag  0x00800234        0x1 Sketch.o
+                0x00800234                PlayFlag
+ .bss.Serial    0x00800235      0x25d C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00800235                Serial
+ .bss.timer0_fract
+                0x00800492        0x1 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .bss.timer0_millis
+                0x00800493        0x4 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00800493                timer0_millis
+ .bss.timer0_overflow_count
+                0x00800497        0x4 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00800497                timer0_overflow_count
+ .bss._ZN5SDLib2SDE
+                0x0080049b       0x49 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+                0x0080049b                _ZN5SDLib2SDE
+ .bss._ZL20chip_select_asserted
+                0x008004e4        0x1 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+ .bss._ZL8settings
+                0x008004e5        0x2 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+ .bss._ZN6SdFile9dateTime_E
+                0x008004e7        0x2 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+                0x008004e7                _ZN6SdFile9dateTime_E
+ .bss._ZN8SdVolume17cacheMirrorBlock_E
+                0x008004e9        0x4 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdVolume.o)
+                0x008004e9                _ZN8SdVolume17cacheMirrorBlock_E
+ .bss._ZN8SdVolume11cacheDirty_E
+                0x008004ed        0x1 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdVolume.o)
+                0x008004ed                _ZN8SdVolume11cacheDirty_E
+ .bss._ZN8SdVolume7sdCard_E
+                0x008004ee        0x2 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdVolume.o)
+                0x008004ee                _ZN8SdVolume7sdCard_E
+ .bss._ZN8SdVolume12cacheBuffer_E
+                0x008004f0      0x200 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdVolume.o)
+                0x008004f0                _ZN8SdVolume12cacheBuffer_E
+ .bss._ZN8SPIClass13interruptSaveE
+                0x008006f0        0x1 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+                0x008006f0                _ZN8SPIClass13interruptSaveE
+ .bss._ZN8SPIClass13interruptMaskE
+                0x008006f1        0x1 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+                0x008006f1                _ZN8SPIClass13interruptMaskE
+ .bss._ZN8SPIClass13interruptModeE
+                0x008006f2        0x1 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+                0x008006f2                _ZN8SPIClass13interruptModeE
+ .bss._ZN8SPIClass11initializedE
+                0x008006f3        0x1 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+                0x008006f3                _ZN8SPIClass11initializedE
+ *(COMMON)
+ COMMON         0x008006f4        0x4 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x008006f4                __brkval
+                0x008006f6                __flp
+                0x008006f8                PROVIDE (__bss_end, .)
+                0x00003c5e                __data_load_start = LOADADDR (.data)
+                0x00003d3c                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008006f8        0x0
+                [!provide]                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                PROVIDE (__noinit_end, .)
+                0x008006f8                _end = .
+                0x008006f8                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x30
+ *(.comment)
+ .comment       0x00000000       0x30 UART.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000030       0x31 Sketch.o
+ .comment       0x00000030       0x31 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .comment       0x00000030       0x31 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .comment       0x00000030       0x31 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .comment       0x00000030       0x31 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .comment       0x00000030       0x31 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .comment       0x00000030       0x31 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .comment       0x00000030       0x31 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+ .comment       0x00000030       0x31 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+ .comment       0x00000030       0x31 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+ .comment       0x00000030       0x31 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .comment       0x00000030       0x31 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdVolume.o)
+ .comment       0x00000030       0x31 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+ .comment       0x00000030       0x31 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .comment       0x00000030       0x31 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
+ .comment       0x00000030       0x31 d:/elec uni/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(realloc.o)
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x40 D:/Elec UNI/Atmel Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x9e0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x30 UART.o
+ .debug_aranges
+                0x00000030       0x60 Sketch.o
+ .debug_aranges
+                0x00000090       0x48 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_aranges
+                0x000000d8       0x30 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_aranges
+                0x00000108      0x100 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_aranges
+                0x00000208       0x48 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_aranges
+                0x00000250       0x38 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_aranges
+                0x00000288      0x2b8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_aranges
+                0x00000540       0xb0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+ .debug_aranges
+                0x000005f0       0xb8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+ .debug_aranges
+                0x000006a8       0xf8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+ .debug_aranges
+                0x000007a0      0x140 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .debug_aranges
+                0x000008e0       0x60 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdVolume.o)
+ .debug_aranges
+                0x00000940       0x38 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+ .debug_aranges
+                0x00000978       0x68 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x2225f
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x5f4 D:/Elec UNI/Atmel Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o
+ .debug_info    0x000005f4      0x10d UART.o
+ .debug_info    0x00000701     0x4480 Sketch.o
+ .debug_info    0x00004b81     0x1b16 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_info    0x00006697      0x237 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_info    0x000068ce     0x28ff C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_info    0x000091cd      0x2cb C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_info    0x00009498      0x5fe C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_info    0x00009a96     0x4338 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_info    0x0000ddce     0x2bc7 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+ .debug_info    0x00010995     0x4d7d C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+ .debug_info    0x00015712     0x304e C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+ .debug_info    0x00018760     0x4e7f C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .debug_info    0x0001d5df     0x264c C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdVolume.o)
+ .debug_info    0x0001fc2b      0x66b C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+ .debug_info    0x00020296     0x1fc9 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+
+.debug_abbrev   0x00000000     0x4764
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x5a2 D:/Elec UNI/Atmel Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o
+ .debug_abbrev  0x000005a2       0xb2 UART.o
+ .debug_abbrev  0x00000654      0x79d Sketch.o
+ .debug_abbrev  0x00000df1      0x3ce C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_abbrev  0x000011bf      0x12d C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_abbrev  0x000012ec      0x47a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_abbrev  0x00001766      0x146 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_abbrev  0x000018ac      0x15b C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_abbrev  0x00001a07      0x4c2 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_abbrev  0x00001ec9      0x51b C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+ .debug_abbrev  0x000023e4      0x83e C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+ .debug_abbrev  0x00002c22      0x635 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+ .debug_abbrev  0x00003257      0x858 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .debug_abbrev  0x00003aaf      0x561 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdVolume.o)
+ .debug_abbrev  0x00004010      0x283 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+ .debug_abbrev  0x00004293      0x4d1 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+
+.debug_line     0x00000000     0x617c
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x134 D:/Elec UNI/Atmel Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o
+ .debug_line    0x00000134       0xa1 UART.o
+ .debug_line    0x000001d5      0x54b Sketch.o
+ .debug_line    0x00000720      0x276 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_line    0x00000996      0x15a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_line    0x00000af0      0x66f C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_line    0x0000115f      0x28e C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_line    0x000013ed      0x247 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_line    0x00001634     0x1334 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_line    0x00002968      0x597 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+ .debug_line    0x00002eff      0x7e9 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+ .debug_line    0x000036e8      0xb2f C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+ .debug_line    0x00004217     0x1228 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .debug_line    0x0000543f      0x5a9 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdVolume.o)
+ .debug_line    0x000059e8      0x2cd C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+ .debug_line    0x00005cb5      0x4c7 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+
+.debug_frame    0x00000000     0x2698
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x50 UART.o
+ .debug_frame   0x00000050      0x1a8 Sketch.o
+ .debug_frame   0x000001f8       0xe0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_frame   0x000002d8       0x54 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_frame   0x0000032c      0x3ac C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_frame   0x000006d8       0xc4 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_frame   0x0000079c       0x7c C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_frame   0x00000818      0xa60 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_frame   0x00001278      0x1d0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+ .debug_frame   0x00001448      0x324 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+ .debug_frame   0x0000176c      0x43c C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+ .debug_frame   0x00001ba8      0x708 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .debug_frame   0x000022b0      0x27c C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdVolume.o)
+ .debug_frame   0x0000252c       0x5c C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+ .debug_frame   0x00002588      0x110 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+
+.debug_str      0x00000000     0x5472
+ *(.debug_str)
+ .debug_str     0x00000000      0x208 D:/Elec UNI/Atmel Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega328p/avr5/crtatmega328p.o
+ .debug_str     0x00000208      0x1e7 UART.o
+                                0x220 (size before relaxing)
+ .debug_str     0x000003ef     0x2be2 Sketch.o
+                               0x2f1c (size before relaxing)
+ .debug_str     0x00002fd1      0x1de C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                               0x13fb (size before relaxing)
+ .debug_str     0x000031af       0x5a C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(main.o)
+                                0x2a7 (size before relaxing)
+ .debug_str     0x00003209      0x38e C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                               0x1235 (size before relaxing)
+ .debug_str     0x00003597      0x159 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                                0x23d (size before relaxing)
+ .debug_str     0x000036f0       0xc6 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                                0x2a2 (size before relaxing)
+ .debug_str     0x000037b6      0x3fc C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                               0x1188 (size before relaxing)
+ .debug_str     0x00003bb2      0x33f C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+                               0x1db1 (size before relaxing)
+ .debug_str     0x00003ef1      0x44f C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+                               0x2de5 (size before relaxing)
+ .debug_str     0x00004340      0x451 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+                               0x12e0 (size before relaxing)
+ .debug_str     0x00004791      0x8a4 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+                               0x273e (size before relaxing)
+ .debug_str     0x00005035       0xfb C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdVolume.o)
+                               0x1ae5 (size before relaxing)
+ .debug_str     0x00005130       0xa4 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+                                0x6a0 (size before relaxing)
+ .debug_str     0x000051d4      0x29e C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                               0x1608 (size before relaxing)
+
+.debug_loc      0x00000000     0xfa7d
+ *(.debug_loc)
+ .debug_loc     0x00000000       0xa7 UART.o
+ .debug_loc     0x000000a7      0x554 Sketch.o
+ .debug_loc     0x000005fb      0x1b0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_loc     0x000007ab     0x1c87 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_loc     0x00002432      0x28d C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_loc     0x000026bf      0x5fc C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_loc     0x00002cbb     0x422d C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_loc     0x00006ee8      0x8ed C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+ .debug_loc     0x000077d5     0x17f1 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+ .debug_loc     0x00008fc6     0x2097 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+ .debug_loc     0x0000b05d     0x332c C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .debug_loc     0x0000e389     0x1001 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdVolume.o)
+ .debug_loc     0x0000f38a      0x1e4 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+ .debug_loc     0x0000f56e      0x50f C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0xb80
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x20 UART.o
+ .debug_ranges  0x00000020       0x50 Sketch.o
+ .debug_ranges  0x00000070       0x38 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_ranges  0x000000a8       0x20 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_ranges  0x000000c8      0x120 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_ranges  0x000001e8       0x38 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_ranges  0x00000220       0x28 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_ranges  0x00000248      0x2f8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_ranges  0x00000540       0xa0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(File.o)
+ .debug_ranges  0x000005e0       0xc0 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SD.o)
+ .debug_ranges  0x000006a0       0xe8 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(Sd2Card.o)
+ .debug_ranges  0x00000788      0x310 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdFile.o)
+ .debug_ranges  0x00000a98       0x68 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SdVolume.o)
+ .debug_ranges  0x00000b00       0x28 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+ .debug_ranges  0x00000b28       0x58 C:\Users\Asus\Desktop\Lab Project\SD Player\SD Player\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(Voice_Recorder.elf elf32-avr)
+LOAD linker stubs
