@@ -1,12 +1,15 @@
 volatile byte ADC_8_bit_out;
 volatile bool ADC_flag = false;
 
+unsigned long time;
+unsigned long time_holder;
+
 int get_adc(void);
 void display_adc_val(int ADC_8_bit_out);
 
 ISR(TIMER2_OVF_vect) {
   ADC_flag = true;
-  TCNT2 = 0x82; //change this
+  TCNT2 = 0x05; //change this
 }
 
 void record_ADC() {
@@ -17,6 +20,9 @@ void record_ADC() {
 
   file.write(ADC_8_bit_out);
 
+  time = micros() - time_holder;
+  time_holder = micros();
+
   PORTD ^= 0b00100000;
 }
 
@@ -25,15 +31,12 @@ void start_adc(void) {
   ADMUX = 0b01000011; // High = Vcc, Data register right aligned, ADC3 as the analog input
   ADCSRA = 0b10000011; // Enabling the ADC, ADC Clock = 16 Mhz / 8 = 2 Mhz --> Sampling frequency = 137.9 Khz
 
-  sei();
-
   TCCR2B = 0b00000010; // Timer Frequency = 16 MHz / 8 = 2 MHz
-  TCNT2 = 0x82; //set the Timer step = 5 (Overflow interrupt frequency = 8 Khz)
+  TCNT2 = 0x05; //set the Timer step = 5 (Overflow interrupt frequency = 8 Khz)
   TIMSK2 |= (1 << TOIE2); //Enable the timer overflow interrupt
 
-  DDRD = 0b00100000;
-
-  PORTD = 0b00100000;
+  DDRD |= (1 << PD5);
+  PORTD |= (1 << PD5);
 }
 
 void stop_adc(void) {
@@ -44,8 +47,11 @@ void stop_adc(void) {
 
   TIMSK2 = 0b00000000;
 
-  PORTD = 0b00000000;
-  DDRD = 0b00000000;
+  if(PORTD & (1 << PD5) != 0){
+    PORTD ^= (1 << PD5);
+  }
+
+  DDRD ^= (1 << PD5);
 
   sei();
 }
