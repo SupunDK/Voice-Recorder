@@ -1,6 +1,6 @@
 #include <avr/io.h>
 #include <avr/interrupt.h>
-#define F_CPU 16000000 // Setting the CPU speed to 16 MHz
+#define F_CPU 16000000UL // Setting the CPU speed to 16 MHz
 #include <util/delay.h>
 
 //Libraries for testing
@@ -18,11 +18,22 @@ File file;
 const int chipSelect = 10;
 
 void setup() {
+  //Setting the system clock = External Oscillator Frequency
+  cli();
+  CLKPR = 0x80;
+  CLKPR = 0x00;
+  sei();
+
+  //Just for arduino
+  DDRB |= (1 << PB0);
+  PORTB |= (1 << PB0);
+
   //Setting up the SD card
   Serial.begin(9600);
   Serial.println("The program started");
 
   if (!SD.begin(chipSelect)) {
+    Serial.println("SD card initialization failed");
     return;
   }
   dac.begin(0x60);
@@ -30,14 +41,23 @@ void setup() {
   
   setup_recording_btn();
   setup_play_btn();
+
+  //playing = true;
 }
 
 void loop() {
-  if (recording) {
+  if (recording == 1) {
+    Serial.println("Record pressed");
+    Serial.println(recording);
     start_recording();
   }
 
-  if (playing) {
+  if (playing == 1) {
+    Serial.println("Play pressed");
+    Serial.println(playing);
     start_playing();
   }
+  // Serial.print(recording);
+  // Serial.print(" ");
+  // Serial.println(playing);
 }
