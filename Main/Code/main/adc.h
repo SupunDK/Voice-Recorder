@@ -1,8 +1,8 @@
 volatile byte ADC_8_bit_out;
 volatile bool ADC_flag = false;
 
-unsigned long time;
-unsigned long time_holder;
+//unsigned long time;
+//unsigned long time_holder;
 
 int get_adc(void);
 void display_adc_val(int ADC_8_bit_out);
@@ -20,8 +20,8 @@ void record_ADC() {
 
   file.write(ADC_8_bit_out);
 
-  time = micros() - time_holder;
-  time_holder = micros();
+  //time = micros() - time_holder;
+  //time_holder = micros();
 
   PORTD ^= 0b00100000;
 }
@@ -71,47 +71,47 @@ int get_adc(void){
   return ADC_8_bit_out * 0.25;
 }
 
-void setup_usat_com(void) {
-  UBRR0L = 0b00011001; // Baud Rate = 38.4 kbps
-  UCSR0C = 0x06; // Data - 8 bit, Start/Stop - 1 bit, No parity bit
-  UCSR0B |= (1 << TXEN0); // Setting the microcontroller as a transmitter
-}
+//void setup_usat_com(void) {
+//  UBRR0L = 0b00011001; // Baud Rate = 38.4 kbps
+//  UCSR0C = 0x06; // Data - 8 bit, Start/Stop - 1 bit, No parity bit
+//  UCSR0B |= (1 << TXEN0); // Setting the microcontroller as a transmitter
+//}
+//
+//void stop_usat_com(void) {
+//  UBRR0L = 0x00;
+//  UCSR0C = 0x00;
+//  UCSR0B = 0x00;
+//}
 
-void stop_usat_com(void) {
-  UBRR0L = 0x00;
-  UCSR0C = 0x00;
-  UCSR0B = 0x00;
-}
-
-void display_adc_val(int ADC_8_bit_out) {
-  uint8_t hundred_pos;
-  uint8_t ten_pos;
-  uint8_t one_pos;
-
-  one_pos = ADC_8_bit_out % 10;
-  ADC_8_bit_out = ADC_8_bit_out / 10;
-
-  ten_pos = ADC_8_bit_out % 10;
-  ADC_8_bit_out = ADC_8_bit_out / 10;
-
-  hundred_pos = ADC_8_bit_out % 10;
-
-  one_pos += 0x30;
-  ten_pos += 0x30;
-  hundred_pos += 0x30;
-
-  while (!(UCSR0A & (1 << UDRE0)));
-  UDR0 = hundred_pos;
-
-  while (!(UCSR0A & (1 << UDRE0)));
-  UDR0 = ten_pos;
-
-  while (!(UCSR0A & (1 << UDRE0)));
-  UDR0 = one_pos;
-
-  while (!(UCSR0A & (1 << UDRE0)));
-  UDR0 = '\r';
-
-  while (!(UCSR0A & (1 << UDRE0)));
-  UDR0 = '\n';
-}
+//void display_adc_val(int ADC_8_bit_out) {
+//  uint8_t hundred_pos;
+//  uint8_t ten_pos;
+//  uint8_t one_pos;
+//
+//  one_pos = ADC_8_bit_out % 10;
+//  ADC_8_bit_out = ADC_8_bit_out / 10;
+//
+//  ten_pos = ADC_8_bit_out % 10;
+//  ADC_8_bit_out = ADC_8_bit_out / 10;
+//
+//  hundred_pos = ADC_8_bit_out % 10;
+//
+//  one_pos += 0x30;
+//  ten_pos += 0x30;
+//  hundred_pos += 0x30;
+//
+//  while (!(UCSR0A & (1 << UDRE0)));
+//  UDR0 = hundred_pos;
+//
+//  while (!(UCSR0A & (1 << UDRE0)));
+//  UDR0 = ten_pos;
+//
+//  while (!(UCSR0A & (1 << UDRE0)));
+//  UDR0 = one_pos;
+//
+//  while (!(UCSR0A & (1 << UDRE0)));
+//  UDR0 = '\r';
+//
+//  while (!(UCSR0A & (1 << UDRE0)));
+//  UDR0 = '\n';
+//}
