@@ -84,7 +84,7 @@ void loop() {
   if (recording == 1) {
     Serial.println("Record pressed");
     Serial.println(recording);
-    //start_recording();
+    start_recording();
   }
 
   if (playing == 1) {
