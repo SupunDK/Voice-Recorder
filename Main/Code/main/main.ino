@@ -47,8 +47,15 @@ void setup() {
   Serial.begin(9600);
   Serial.println("The program started");
 
+  //Setting up the lcd
+  lcd.init();
+  lcd.backlight();
+  lcd.print("Voice Recorder");
+
   if (!SD.begin(chipSelect)) {
     Serial.println("SD card initialization failed");
+    lcd.clear();
+    lcd.print("SD Card Failed");
     return;
   }
   dac.begin(0x60);
@@ -56,11 +63,6 @@ void setup() {
   
   setup_recording_btn();
   setup_play_btn();
-
-  //Setting up the lcd
-  lcd.init();
-  lcd.backlight();
-  lcd.print("Voice Recorder");
 
   DDRD &= ~(1<<4);/*Menu button*/
   DDRD &= ~(1<<6);/*up button*/
@@ -189,7 +191,7 @@ void loop() {
   if (upReg){
     upReg = false;
     lcd.clear();
-    lcd.print("hi");
+    //lcd.print("hi");
     switch (pointerTrack){
       case 1:
         --openingPointer;

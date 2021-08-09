@@ -3,7 +3,6 @@
 volatile uint16_t data = 0;
 uint8_t stepVal;
 volatile bool DAC_flag = false; 
-volatile bool pause = false;
 Adafruit_MCP4725 dac;
 
 ISR(TIMER1_COMPA_vect) {
@@ -37,8 +36,8 @@ void sendData(){
 
   dac.setVoltage2(data);
 
-  time = micros() - time_holder;
-  time_holder = micros();
+ // time = micros() - time_holder;
+  //time_holder = micros();
 }
 
 void end_playback(){

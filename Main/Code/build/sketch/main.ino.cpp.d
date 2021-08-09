@@ -28,4 +28,6 @@ c:\Users\HP\OneDrive\ -\ University\ of\ Moratuwa\Campus\ Academics\Campus\Campu
  C:\Users\HP\Documents\Arduino\libraries\Adafruit_BusIO/Adafruit_SPIDevice.h \
  c:\Users\HP\OneDrive\ -\ University\ of\ Moratuwa\Campus\ Academics\Campus\Campus\ Notes\Sem\ 2\Lab\ Project\Project\Electronic-Project\main\Code\build\sketch\adc.h \
  c:\Users\HP\OneDrive\ -\ University\ of\ Moratuwa\Campus\ Academics\Campus\Campus\ Notes\Sem\ 2\Lab\ Project\Project\Electronic-Project\main\Code\build\sketch\DAC.h \
- c:\Users\HP\OneDrive\ -\ University\ of\ Moratuwa\Campus\ Academics\Campus\Campus\ Notes\Sem\ 2\Lab\ Project\Project\Electronic-Project\main\Code\build\sketch\buttons.h
+ c:\Users\HP\OneDrive\ -\ University\ of\ Moratuwa\Campus\ Academics\Campus\Campus\ Notes\Sem\ 2\Lab\ Project\Project\Electronic-Project\main\Code\build\sketch\buttons.h \
+ c:\Users\HP\OneDrive\ -\ University\ of\ Moratuwa\Campus\ Academics\Campus\Campus\ Notes\Sem\ 2\Lab\ Project\Project\Electronic-Project\main\Code\build\sketch\lcd.h \
+ C:\Users\HP\Documents\Arduino\libraries\LiquidCrystal_I2C/LiquidCrystal_I2C.h
