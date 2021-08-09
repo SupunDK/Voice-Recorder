@@ -1,10 +1,12 @@
+LiquidCrystal_I2C lcd(0x27,16,2);
+
 char headerData[44] = {/*RIFF Section*/0x52,0x49,0x46,0x46,0x00,0x00,0x00,0x00,0x57,0x41,0x56,0x45,/*Format Section*/0x66,0x6D,0x74,0x20,0x10,0x00,0x00,0x00,0x01,0x00,0x01,0x00,0x40,0x1F,0x00,0x00,0x40,0x1F,0x00,0x00,0x01,0x00,0x08,0x00,/*Data Header*/0x64,0x61,0x74,0x61,0x00,0x00,0x00,0x00};
 uint32_t sampleCount = 0; //variable to count the number of samples taken in a single recording
 //volatile uint8_t recording = 2;
 //volatile uint8_t playing = 2;
 volatile bool recording = false;
 volatile bool playing = false;
-volatile uint8_t paused = 2;
+volatile bool paused = false;
 
 //For lcd
 int pointerTrack = 1; /* 1-record/play 2-recording 3-rec.paused 4-playlist 5-variation 6-playing 7-play.paused */
@@ -17,7 +19,7 @@ ISR(INT0_vect) {
 //  recording = (recording + 1)%4;
 //  _delay_ms(200);
 //  paused = (paused + 1)%4;
-  
+  paused = !(paused);
   selectReg = true; 
   recording =true; /*true when pointerTrack=1*/
   playing =true; /*true when pointerTrack=5*/
@@ -61,18 +63,25 @@ void start_recording() {
 
   //Serial.println("Started Recording");
 
-  if (SD.exists("TEST3.wav")) {
-    SD.remove("TEST3.wav");
+  //Create filename from EEPROM
+  String fileName = "TEST";
+  fileName += counter;
+  counter++;
+  EEPROM.write(0, counter);
+  fileName += ".wav";
+
+  if (SD.exists(fileName)) {
+    SD.remove(fileName);
   }
 
-  file = SD.open("TEST3.wav", FILE_WRITE);
+  file = SD.open(fileName, FILE_WRITE);
 
   //Writing the header data of the .wav format to the file
   for(uint8_t i=0; i<44; i++){
     file.write(headerData[i]);
   }
 
-  paused = 3;
+  paused = false;
 
   start_adc();
 
@@ -81,7 +90,23 @@ void start_recording() {
   //time_holder = micros();
 
   while (recording) {
-    while(paused == 1);
+
+    if (paused){
+      lcd.clear();
+      lcd.print("   Recording");
+      lcd.setCursor(0,1);
+      lcd.print("   Paused...");
+      }
+      
+    while(paused);
+
+    if (!recording){
+      break;
+      }
+
+    lcd.clear();
+    lcd.print("Recording");
+    delay(1000);
 
     if (ADC_flag) {
       record_ADC();
@@ -104,7 +129,7 @@ void start_recording() {
   sei();
 
   //Writing the size of the file into the header
-  file = SD.open("TEST3.wav",O_RDWR);
+  file = SD.open(fileName,O_RDWR);
   file.seek(40);
 
   for(uint8_t i=0; i<4; i++){
@@ -134,18 +159,30 @@ void start_playing() {
 
   //Serial.println(playing);
 
-  paused = 3;
+  paused = false;
 
   sei();
 
   //time_holder = micros();
 
   while (playing) {
-    if (paused == 1){
+    if (paused){
       dac.sleep();
+//      lcd.clear();//without this it is working for playing but not for recording(may be playback length)
+//      lcd.print("   Playback");
+//      lcd.setCursor(0,1);
+//      lcd.print("   Paused...");
     }
 
-    while(paused == 1);
+    while(paused);
+
+//    if (!playing){
+//      break;
+//      }
+ 
+//      lcd.clear();
+//      lcd.print("   Playing...");
+//      delay(1000);
 
     if(DAC_flag){
       if(file.available()){

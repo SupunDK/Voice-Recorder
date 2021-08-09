@@ -3,10 +3,15 @@
 #define F_CPU 16000000UL // Setting the CPU speed to 16 MHz
 #include <util/delay.h>
 
+int counter; //for EEPROM
+
 //Libraries for testing
 #include <SPI.h>
 #include <SD.h>
 #include <Adafruit_MCP4725.h>
+#include <EEPROM.h>
+#include <Wire.h> 
+#include <LiquidCrystal_I2C.h>
 
 File file;
 
@@ -25,7 +30,9 @@ ISR(PCINT2_vect){
     downReg = true;
     } 
   if ((PIND & menu)==0x00){
+    paused = false;// to stop while paused
     menuReg = true;
+    selectReg = false; //after select btn menu btn can be pressed and both selectreg and menureg be true
     recording =false; /*false when pointerTrack=2/3*/
     playing =false; /*false when pointerTrack=6/7*/
     //selectReg=false;
@@ -33,6 +40,10 @@ ISR(PCINT2_vect){
   }
 
 void setup() {
+  //EEPROM  
+  EEPROM.write(0,0);//comment it after the first run
+  counter = EEPROM.read(0);
+  
   //Setting the system clock = External Oscillator Frequency
   cli();
   CLKPR = 0x80;
@@ -101,16 +112,16 @@ void loop() {
         openingAction();
         break;
       case 2:
-        lcd.clear();
-        lcd.print("   Recording");
-        lcd.setCursor(0,1);
-        lcd.print("   Paused...");
-        pointerTrack = 3;
+//        lcd.clear();
+//        lcd.print("   Recording");
+//        lcd.setCursor(0,1);
+//        lcd.print("   Paused...");
+//        pointerTrack = 3;
         break;
       case 3:
-        lcd.clear();
-        lcd.print("   Recording");
-        pointerTrack = 2;
+//        lcd.clear();
+//        lcd.print("   Recording");
+//        pointerTrack = 2;
         break;
       case 4:
         pointerTrack = 5;
@@ -118,20 +129,20 @@ void loop() {
         break;
       case 5:
         pointerTrack = 6;
-        lcd.clear();
+        lcd.clear();//to be commented
         lcd.print("Playing...");
-        playing = true;
+        //playing = true;
         start_playing();
         break;
       case 6:
-        lcd.clear();
+        lcd.clear();//to be commented
         lcd.print("   Playback");
         lcd.setCursor(0,1);
         lcd.print("   Paused...");
         pointerTrack = 7;
         break;
       case 7:
-        lcd.clear();
+        lcd.clear();//to be commented
         lcd.print("   Playing...");
         pointerTrack = 6;
         break;
