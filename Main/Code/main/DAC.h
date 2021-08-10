@@ -25,7 +25,7 @@ void start_playback(uint8_t mode) {
   else if (mode == 1){
     OCR1A = 165;    // High pitch mode (alvin 12kHz)
   }
-  else (mode == 2){
+  else if (mode == 2){
     OCR1A = 333;    // Low pitch mode (Batman 6kHz)
   }
   
