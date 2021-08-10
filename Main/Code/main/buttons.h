@@ -149,7 +149,7 @@ void start_playing() {
   file = SD.open(playFile);
   Serial.println("File Opened");
   file.seek(45); //skipping through the wav file header
-  start_playback(0);
+  start_playback(variationPointer - 1);
 
   //Serial.println(playing);
 
