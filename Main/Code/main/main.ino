@@ -5,19 +5,26 @@
 
 int counter; //for EEPROM
 
+//for lcd 
 int songPointer = 1;
 int openingPointer = 1;
 int variationPointer = 1;
-int currentSongPointer = songPointer - 1;//new for song select
+int pointerTrack = 1; /* 1-record/play 2-recording 3-rec.paused 4-playlist 5-variation 6-playing 7-play.paused */
 
 String song[] = {"Test0", "Test1", "Test2"};//seems like have to comment this after first run
 char* variation[] = {"Normal Voice", "Alvin Voice", "Batman Voice"};
-//int modes[] = {0, 1, 2};//new for variation select(mode = modes[currentVarPointer])
 
-int down = 0x80;//Buttons
+//Buttons
+int down = 0x80;
 int up = 0x40;
 int select = 0x04;
 int menu = 0x10;
+
+//variable for button selection tracking
+volatile bool upReg = false;
+volatile bool downReg = false;
+volatile bool selectReg = false;
+volatile bool menuReg = false;
 
 //Libraries for testing
 #include <SPI.h>
@@ -28,7 +35,7 @@ int menu = 0x10;
 #include <LiquidCrystal_I2C.h>
 
 File file;
-LiquidCrystal_I2C lcd(0x27,16,2);
+LiquidCrystal_I2C lcd(0x20,16,2);
 
 #include "adc.h"
 #include "DAC.h"
@@ -88,7 +95,6 @@ void setup() {
   dac.sleep();
   
   setup_recording_btn();
-  setup_play_btn();
 
   DDRD &= ~(1<<4);/*Menu button*/
   DDRD &= ~(1<<6);/*up button*/
@@ -104,22 +110,7 @@ void setup() {
   //playing = true;
 }
 
-void loop() {
-//  if (recording == 1) {
-//    Serial.println("Record pressed");
-//    Serial.println(recording);
-//    start_recording();
-//  }
-//
-//  if (playing == 1) {
-//    Serial.println("Play pressed");
-//    Serial.println(playing);
-//    start_playing();
-//  }
-  // Serial.print(recording);
-  // Serial.print(" ");
-  // Serial.println(playing);
-  
+void loop() {  
   if (selectReg){
     selectReg = false;
     switch (pointerTrack){

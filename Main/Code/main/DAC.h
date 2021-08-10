@@ -1,5 +1,5 @@
 uint8_t mode = 0;
-volatile uint16_t data = 0; 
+volatile uint16_t data = 0; //isn't data a keyword?
 uint8_t stepVal;
 volatile bool DAC_flag = false; 
 Adafruit_MCP4725 dac;
@@ -23,7 +23,7 @@ void start_playback(uint8_t mode) {
     OCR1A = 250;    // Normal mode (8kHz)
   }
   else if (mode == 1){
-    OCR1A = 165;    // High pitch mode (alvin 12kHz)
+    OCR1A = 50;    // High pitch mode (alvin 12kHz)//is 50 ok?
   }
   else if (mode == 2){
     OCR1A = 333;    // Low pitch mode (Batman 6kHz)

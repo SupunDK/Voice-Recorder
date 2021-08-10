@@ -1,24 +1,11 @@
-//LiquidCrystal_I2C lcd(0x27,16,2);
 
 char headerData[44] = {/*RIFF Section*/0x52,0x49,0x46,0x46,0x00,0x00,0x00,0x00,0x57,0x41,0x56,0x45,/*Format Section*/0x66,0x6D,0x74,0x20,0x10,0x00,0x00,0x00,0x01,0x00,0x01,0x00,0x40,0x1F,0x00,0x00,0x40,0x1F,0x00,0x00,0x01,0x00,0x08,0x00,/*Data Header*/0x64,0x61,0x74,0x61,0x00,0x00,0x00,0x00};
 uint32_t sampleCount = 0; //variable to count the number of samples taken in a single recording
-//volatile uint8_t recording = 2;
-//volatile uint8_t playing = 2;
 volatile bool recording = false;
 volatile bool playing = false;
 volatile bool paused = false;
 
-//For lcd
-int pointerTrack = 1; /* 1-record/play 2-recording 3-rec.paused 4-playlist 5-variation 6-playing 7-play.paused */
-volatile bool upReg = false;
-volatile bool downReg = false;
-volatile bool selectReg = false;
-volatile bool menuReg = false;
-
 ISR(INT0_vect) {
-//  recording = (recording + 1)%4;
-//  _delay_ms(200);
-//  paused = (paused + 1)%4;
   paused = !(paused);
   selectReg = true; 
   recording =true; /*true when pointerTrack=1*/
@@ -29,11 +16,8 @@ ISR(INT0_vect) {
 void setup_recording_btn(void) {
   cli();
 
-    //EICRA |= (1 << ISC00); //interrupt call on logic change
-    //EIMSK |= (1 << INT0);
-
   //falling edge
-  EICRA |= (1 << ISC01) //| (1 << ISC00);           
+  EICRA |= (1 << ISC01); //| (1 << ISC00);           
   EIMSK |= (1 << INT0);
 
   sei();
@@ -78,6 +62,8 @@ void start_recording() {
   sei();
 
   //time_holder = micros();
+
+  while (recording){
 
   while(paused){
       if (!pre_paused){
@@ -143,7 +129,7 @@ void start_playing() {
 
   Serial.println("Started Playing");
 
-  String playFile = song[currentSongPointer];
+  String playFile = song[songPointer - 1];
   playFile += ".wav";
 
   file = SD.open(playFile);
@@ -161,21 +147,14 @@ void start_playing() {
   //time_holder = micros();
 
   while (playing) {
-//    if (paused){//why is it outside while loop?
-//      dac.sleep();
-//      lcd.clear();//without this it is working for playing but not for recording(may be playback length)
-//      lcd.print("   Playback");
-//      lcd.setCursor(0,1);
-//      lcd.print("   Paused...");
-//    }
-//    Serial.println(paused);
+
     while(paused){
       if (!pre_paused){
-      dac.sleep();
-      lcd.clear();//without this it is working for playing but not for recording(may be playback length)
-      lcd.print("   Playback");
-      lcd.setCursor(0,1);
-      lcd.print("   Paused...");
+        dac.sleep();
+        lcd.clear();//without this it is working for playing but not for recording(may be playback length)
+        lcd.print("   Playback");
+        lcd.setCursor(0,1);
+        lcd.print("   Paused...");
         }
       pre_paused = true;
       }
@@ -189,10 +168,6 @@ void start_playing() {
       lcd.print("Playing!!...");
       pre_paused = false;
       }
- 
-//      lcd.clear();
-//      lcd.print("   Playing...");
-//      delay(1000);
 
     if(DAC_flag){
       if(file.available()){

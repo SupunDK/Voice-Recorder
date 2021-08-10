@@ -1,20 +1,3 @@
-//LiquidCrystal_I2C lcd(0x27,16,2);
-//int pointerTrack = 1; /* 1-record/play 2-recording 3-rec.paused 4-playlist 5-variation 6-playing 7-play.paused */ defined in button.h
-
-int songPointer = 1;
-int openingPointer = 1;
-int variationPointer = 1;
-int currentPointer = variationPointer - 1;//new for variation select
-
-char* song[] = {"Test0", "Test1", "Test2", "Test3"};
-char* variation[] = {"Normal Voice", "Fast Mode", "Slow Mode", "Alvin Voice", "Batman Voice"};
-int modes[] = {0, 1, 2, 3, 4};//new for variation select(mode = modes[currentPointer])
-
-int down = 0x80;
-int up = 0x40;
-int select = 0x04;
-int menu = 0x10;
-
 
 void openingMenu(){
   switch (openingPointer){
@@ -36,6 +19,12 @@ void openingMenu(){
   }
 
 void songMenu() {
+  if (songPointer <= 0){
+    songPointer = 3;
+    }
+  if (songPointer > 3){
+    songPointer = 1;
+    }
   if((songPointer % 2) == 0){
     int p = songPointer;
     lcd.clear();
@@ -61,8 +50,8 @@ void songMenu() {
 void openingAction(){
   switch (openingPointer){
     case 1:/*record*/
-//        lcd.clear();
-//        lcd.print("Recording...");
+        lcd.clear();
+        lcd.print("Recording...");
         pointerTrack = 2;
         start_recording();
       break;
@@ -82,10 +71,10 @@ void songAction() {
 
 void variationMenu(){
   if (variationPointer <=0){
-    variationPointer = 5;
+    variationPointer = 3;
     }
-  if (variationPointer > 5){
-    variationPointer =1;
+  if (variationPointer > 3){
+    variationPointer = 1;
     }
   if((variationPointer % 2) == 0){
     int p = variationPointer;
