@@ -5,6 +5,20 @@
 
 int counter; //for EEPROM
 
+int songPointer = 1;
+int openingPointer = 1;
+int variationPointer = 1;
+int currentSongPointer = songPointer - 1;//new for song select
+
+String song[] = {"Test0", "Test1", "Test2"};//seems like have to comment this after first run
+char* variation[] = {"Normal Voice", "Alvin Voice", "Batman Voice"};
+//int modes[] = {0, 1, 2};//new for variation select(mode = modes[currentVarPointer])
+
+int down = 0x80;//Buttons
+int up = 0x40;
+int select = 0x04;
+int menu = 0x10;
+
 //Libraries for testing
 #include <SPI.h>
 #include <SD.h>
@@ -14,6 +28,7 @@ int counter; //for EEPROM
 #include <LiquidCrystal_I2C.h>
 
 File file;
+LiquidCrystal_I2C lcd(0x27,16,2);
 
 #include "adc.h"
 #include "DAC.h"
@@ -41,7 +56,7 @@ ISR(PCINT2_vect){
 
 void setup() {
   //EEPROM  
-  EEPROM.write(0,0);//comment it after the first run
+  EEPROM.write(0,0);//upload, comment it after the first(or some amount of) recording made, re-upload
   counter = EEPROM.read(0);
   
   //Setting the system clock = External Oscillator Frequency
@@ -133,18 +148,22 @@ void loop() {
         lcd.print("Playing...");
         //playing = true;
         start_playing();
+        if (!menuReg){
+          pointerTrack = 1;
+          openingMenu();
+        }
         break;
       case 6:
-        lcd.clear();//to be commented
-        lcd.print("   Playback");
-        lcd.setCursor(0,1);
-        lcd.print("   Paused...");
-        pointerTrack = 7;
+//        lcd.clear();//to be commented
+//        lcd.print("   Playback");
+//        lcd.setCursor(0,1);
+//        lcd.print("   Paused...");
+//        pointerTrack = 7;
         break;
       case 7:
-        lcd.clear();//to be commented
-        lcd.print("   Playing...");
-        pointerTrack = 6;
+//        lcd.clear();//to be commented
+//        lcd.print("   Playing...");
+//        pointerTrack = 6;
         break;
       }
     }
@@ -201,8 +220,8 @@ void loop() {
     
   if (upReg){
     upReg = false;
-    lcd.clear();
-    //lcd.print("hi");
+//    lcd.clear();
+//    //lcd.print("hi");
     switch (pointerTrack){
       case 1:
         --openingPointer;
