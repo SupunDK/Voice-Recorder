@@ -11,8 +11,8 @@ int openingPointer = 1;
 int variationPointer = 1;
 int pointerTrack = 1; /* 1-record/play 2-recording 3-rec.paused 4-playlist 5-variation 6-playing 7-play.paused */
 
-String song[] = {"Test0", "Test1", "Test2"};//seems like have to comment this after first run
-char* variation[] = {"Normal Voice", "Alvin Voice", "Batman Voice"};
+String song[] = {"TEST0", "TEST1", "TEST2", "TEST3"};//seems like have to comment this after first run
+String variation[] = {"Normal Voice", "Alvin Voice", "Batman Voice"};//changed type to string from char*
 
 //Buttons
 int down = 0x80;
@@ -35,7 +35,8 @@ volatile bool menuReg = false;
 #include <LiquidCrystal_I2C.h>
 
 File file;
-LiquidCrystal_I2C lcd(0x20,16,2);
+File root;
+LiquidCrystal_I2C lcd(0x20,16,2); 
 
 #include "adc.h"
 #include "DAC.h"
@@ -63,9 +64,9 @@ ISR(PCINT2_vect){
 
 void setup() {
   //EEPROM  
-  EEPROM.write(0,0);//upload, comment it after the first(or some amount of) recording made, re-upload
+  //EEPROM.write(0,0);//empty the sd card, upload, comment , re-upload
   counter = EEPROM.read(0);
-  
+    
   //Setting the system clock = External Oscillator Frequency
   cli();
   CLKPR = 0x80;
@@ -91,6 +92,11 @@ void setup() {
     lcd.print("SD Card Failed");
     return;
   }
+
+  //read the files in sd card
+  root = SD.open("/");
+  printDirectory(root);
+  
   dac.begin(0x60);
   dac.sleep();
   
@@ -100,7 +106,7 @@ void setup() {
   DDRD &= ~(1<<6);/*up button*/
   DDRD &= ~(1<<7);/*down button*/
 
-  PORTD |= (1<<4) | (1<<6) | (1<<7);
+//  PORTD |= (1<<4) | (1<<6) | (1<<7);
   _delay_ms(1000);
   openingMenu();
 
@@ -211,8 +217,6 @@ void loop() {
     
   if (upReg){
     upReg = false;
-//    lcd.clear();
-//    //lcd.print("hi");
     switch (pointerTrack){
       case 1:
         --openingPointer;
@@ -247,3 +251,27 @@ void loop() {
       }
     }
 }
+
+void printDirectory(File dir){
+  for (int i = 0; i <= 3; i++){
+    File entry = root.openNextFile();
+    if(!entry){
+      break;
+      }
+    else{
+      char* temp = entry.name();
+      String wholeName = String(temp);//"TEST3.WAV"
+      String copy = wholeName;
+      int len = wholeName.length();
+      copy.remove(0,4);
+      copy.remove(copy.length()-4,4);
+      String ex = String(copy);//"3"
+      int num = ex.toInt();//3
+      
+      wholeName.remove(len - 4, 4);//"TEST3"
+
+      int rem = num % 4;//3%4=3
+      song[rem] = wholeName;//song[3] = "TEST3"
+      }
+    }
+  }

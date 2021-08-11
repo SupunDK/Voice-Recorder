@@ -31,14 +31,24 @@ void setup_recording_btn(void) {
 void start_recording() {
   cli();
 
-  //Serial.println("Started Recording");
-
   //Create filename from EEPROM
   String fileName = "TEST";
+  String fileName2 = "TEST";
   fileName += counter;
-  //Saving atmost 3 recordings
-    int rem = counter%3;
-    song[rem] = fileName;
+
+  if (counter >= 4){
+    int counter2 = counter - 4;
+    fileName2 += counter2;
+    fileName2 += ".wav";
+    
+    if (SD.exists(fileName2)) {
+      SD.remove(fileName2);
+    }
+  }
+
+  int rem = counter%4;
+  song[rem] = fileName;
+  
   counter++;
   EEPROM.write(0, counter);
   fileName += ".wav";
@@ -81,7 +91,7 @@ void start_recording() {
       
     if (pre_paused){//if (pre_paused != false)
       lcd.clear();
-      lcd.print("Recording...");
+      lcd.print("   Recording...");
       pre_paused = false;
       } 
 
@@ -165,7 +175,7 @@ void start_playing() {
 
     if (pre_paused){
       lcd.clear();
-      lcd.print("Playing!!...");
+      lcd.print("   Playing...");
       pre_paused = false;
       }
 

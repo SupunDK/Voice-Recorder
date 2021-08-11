@@ -1,5 +1,5 @@
 uint8_t mode = 0;
-volatile uint16_t data = 0; //isn't data a keyword?
+volatile uint16_t data = 0;
 uint8_t stepVal;
 volatile bool DAC_flag = false; 
 Adafruit_MCP4725 dac;
